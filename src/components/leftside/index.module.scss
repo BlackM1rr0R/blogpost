@@ -1,0 +1,140 @@
+.background {
+  display: flex;
+
+  flex-direction: column;
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .images {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .fb {
+        border: 1px solid #fbfbfb2d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #041118;
+        padding: 17px 0px;
+        width: 70px;
+      }
+      .name {
+        h2 {
+          color: #c0c0c0;
+
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 14.4px;
+          letter-spacing: 1.5px;
+        }
+      }
+    }
+    .time {
+      color: #c0c0c0;
+
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 14.4px;
+      letter-spacing: 1.5px;
+    }
+  }
+  .fatima {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+
+    margin-top: 11px;
+    border: 1px solid #fbfbfb2d;
+    background-color: #041118;
+    padding: 29px;
+    .mephoto {
+      img {
+        object-fit: cover;
+      }
+    }
+    .aboutme {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      h1 {
+        color: #f9f9f9;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      h2 {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        gap: 4px;
+        color: #8e8e8e;
+      }
+      h3 {
+        font-size: 11px;
+        color: #8e8e8e;
+      }
+    }
+  }
+  .menu {
+    padding-top: 60px;
+    .menubackground {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 15px;
+      padding: 19px;
+
+      h2 {
+        color: #f9f9f983;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 14.4px;
+      }
+    }
+    .active {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 15px;
+      padding: 19px;
+      border: 1px solid #fbfbfb2d;
+      background-color: #041118;
+      .icon1 {
+        svg {
+          opacity: 1;
+        }
+      }
+      h2 {
+        color: white;
+      }
+    }
+  }
+  .contacts {
+    display: flex;
+
+    padding-top: 40px;
+    .iconsbackground {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-between;
+      border: 1px solid #fbfbfb2d;
+      background-color: #041118;
+      padding: 15px 27px;
+    }
+    .copyright {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      background-color: #101d24;
+      border: 1px solid #fbfbfb2d;
+      padding: 21.5px;
+      h1 {
+        color: #f9f9f9;
+        font-size: 11px;
+        font-weight: 400;
+      }
+    }
+  }
+}

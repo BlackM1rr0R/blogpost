@@ -1,0 +1,747 @@
+.background .control {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.background .control .controlright .righthero {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #041118;
+}
+.background .control .controlright .righthero .heroheader {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 27px;
+}
+.background .control .controlright .righthero .heroheader .online {
+  padding: 14px 33px;
+  background-color: #0b1622;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .control .controlright .righthero .heroheader .online h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #f9f9f9;
+}
+.background .control .controlright .aboutme {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+}
+.background .control .controlright .aboutme .leftabout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 28px;
+  background-color: #0b1622;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .control .controlright .aboutme .leftabout .jobtitle h2 {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.3799999952px;
+  color: rgba(188, 188, 188, 0.6980392157);
+}
+.background .control .controlright .aboutme .leftabout .myname h1 {
+  color: #f9f9f9;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.75px;
+}
+.background .control .controlright .aboutme .leftabout .experience p {
+  color: #8e8e8e;
+  width: 297px;
+  font-size: 12.9px;
+  font-weight: 400;
+  line-height: 26.7px;
+  letter-spacing: 0.2300000042px;
+}
+.background .control .controlright .aboutme .rightabout {
+  background-color: #0b1622;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .control .controlright .aboutme .rightabout .locations {
+  padding: 18px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.background .control .controlright .aboutme .rightabout .locations .baku {
+  padding: 13px 19px;
+  background-color: #07151e;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .control .controlright .aboutme .rightabout .locations .baku h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .control .controlright .aboutme .rightabout .locations .azerbaijan {
+  padding: 13px 19px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #07151e;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .control .controlright .aboutme .rightabout .locations .azerbaijan h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .control .controlright .aboutme .rightabout .screenphoto {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 28px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.background .control .controlright .aboutme .rightabout .screenphoto img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 215px;
+}
+.background .projects {
+  background-color: #040b0f;
+}
+.background .projects .projecttitle {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040e14;
+  padding: 15px;
+}
+.background .projects .projecttitle .projectname {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 12px 20px;
+}
+.background .projects .projecttitle .projectname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .projects .projecttitle .projectoverview {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 12px 20px;
+  background-color: #041016;
+}
+.background .projects .projecttitle .projectoverview p {
+  color: rgba(249, 249, 249, 0.7137254902);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .projects .maps {
+  padding-top: 18px;
+  background-color: #040e14;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.background .projects .maps .border {
+  background-color: #050e14;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 8px;
+}
+.background .projects .maps .border .images img {
+  width: 100%;
+}
+.background .projects .maps .border .mapsname {
+  padding-top: 17px;
+  padding-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .projects .maps .border .mapsname .mapstext {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.background .projects .maps .border .mapsname .mapstext h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.75px;
+  color: #f9f9f9;
+}
+.background .projects .maps .border .mapsname .mapstext h2 {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.224999994px;
+}
+.background .projects .maps .border .mapsname .mapsicon {
+  background-color: #040f16;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 11px 14px;
+}
+.background .customers {
+  background-color: #040b0f;
+}
+.background .customers .customerstitle {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040e14;
+  padding: 15px;
+}
+.background .customers .customerstitle .customersname {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 12px 20px;
+}
+.background .customers .customerstitle .customersname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .customers .customerstitle .customersoverview {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 12px 20px;
+  background-color: #041016;
+}
+.background .customers .customerstitle .customersoverview p {
+  color: rgba(249, 249, 249, 0.7137254902);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .customers .customersmarke {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px;
+  margin-top: 20px;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040a0e;
+}
+.background .customers .customersmarke .google {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 10px 40px;
+}
+.background .customers .customersmarke .google img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .customers .stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+  padding-top: 18px;
+}
+.background .customers .stats .stat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #050e13;
+  padding: 27px 17px 27px 27px;
+}
+.background .customers .stats .stat h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+  color: #f9f9f9;
+}
+.background .customers .stats .stat h3 {
+  color: #8e8e8e;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.2300000042px;
+}
+.background .abouteducation {
+  background-color: #040b0f;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+.background .abouteducation .education {
+  width: 100%;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+  padding: 15px;
+}
+.background .abouteducation .education .educationtitle {
+  width: 105px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 15px 18px;
+}
+.background .abouteducation .education .educationtitle h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .abouteducation .education .educationinfo {
+  padding-top: 37px;
+  display: flex;
+  gap: 18px;
+}
+.background .abouteducation .education .educationinfo .educationabout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .abouteducation .education .educationinfo .educationabout h3 {
+  color: #8e8e8e;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.2300000042px;
+}
+.background .abouteducation .education .educationinfo .educationabout h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.75px;
+}
+.background .abouteducation .aboutexperience {
+  width: 100%;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+  padding: 15px;
+}
+.background .abouteducation .aboutexperience .experiencetitle {
+  width: 105px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 15px 18px;
+}
+.background .abouteducation .aboutexperience .experiencetitle h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .abouteducation .aboutexperience .experienceinfo {
+  padding-top: 37px;
+  display: flex;
+  gap: 18px;
+}
+.background .abouteducation .aboutexperience .experienceinfo .experienceabout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .abouteducation .aboutexperience .experienceinfo .experienceabout h3 {
+  color: #8e8e8e;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.2300000042px;
+}
+.background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.75px;
+}
+.background .services {
+  background-color: #040b0f;
+}
+.background .services .servicestitle {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040e14;
+  padding: 15px;
+}
+.background .services .servicestitle .servicesname {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 12px 20px;
+}
+.background .services .servicestitle .servicesname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .services .servicestitle .servicesoverview {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 12px 20px;
+  background-color: #041016;
+}
+.background .services .servicestitle .servicesoverview p {
+  color: rgba(249, 249, 249, 0.7137254902);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .services .servicesboxs {
+  padding-top: 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 13px;
+}
+.background .services .servicesboxs .servicesborder {
+  width: 44%;
+  padding: 26px;
+  background-color: #051017;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+}
+.background .services .servicesboxs .servicesborder .servicescontrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.background .services .servicesboxs .servicesborder .servicescontrol .servicestext {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.background .services .servicesboxs .servicesborder .servicescontrol .servicestext h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.75px;
+}
+.background .services .servicesboxs .servicesborder .servicescontrol .servicestext p {
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 11.81px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.2300000042px;
+}
+.background .services .servicesboxs .servicesborder .servicescontrol .servicestext h3 {
+  color: #8e8e8e;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .services .servicesboxs .servicesborder .servicescontrol .servicesicon {
+  display: flex;
+  align-items: center;
+  background-color: #06131c;
+  padding: 11px;
+}
+.background .testimonial {
+  background-color: #040b0f;
+}
+.background .testimonial .testimonialtitle {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040e14;
+  padding: 15px;
+}
+.background .testimonial .testimonialtitle .testimonialname {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 12px 20px;
+}
+.background .testimonial .testimonialtitle .testimonialname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .testimonial .testimonialtitle .testimonialoverview {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 12px 20px;
+  background-color: #041016;
+}
+.background .testimonial .testimonialtitle .testimonialoverview p {
+  color: rgba(249, 249, 249, 0.7137254902);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .testimonial .testimonialboxs {
+  padding-top: 32px;
+  display: flex;
+  gap: 18px;
+}
+.background .testimonial .testimonialboxs .larry {
+  background-color: #050d12;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  display: flex;
+  gap: 15px;
+  padding: 27px;
+}
+.background .testimonial .testimonialboxs .larry .larryimages img {
+  background-color: #061118;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding-top: 10px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #05151d;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 11px 27px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo .larryname {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo .larryname h1 {
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.75px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo .larryname h3 {
+  color: #8e8e8e;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0.2300000042px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo .larryicon {
+  display: flex;
+  align-items: center;
+  background-color: #0e2533;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 15px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryinfo .larryicon svg {
+  opacity: 1;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryoverview {
+  background-color: #05151d;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 18px 29px;
+}
+.background .testimonial .testimonialboxs .larry .larrytext .larryoverview p {
+  color: #8e8e8e;
+  font-size: 11.81px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.2300000042px;
+}
+.background .contact {
+  background-color: #040b0f;
+}
+.background .contact .contacttitle {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #040e14;
+  padding: 15px;
+}
+.background .contact .contacttitle .contactname {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 12px 20px;
+}
+.background .contact .contacttitle .contactname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .contact .contacttitle .contactoverview {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 12px 20px;
+  background-color: #041016;
+}
+.background .contact .contacttitle .contactoverview p {
+  color: rgba(249, 249, 249, 0.7137254902);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+.background .contact .contactboxs {
+  padding-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+.background .contact .contactboxs .leftboxs {
+  width: 60%;
+  background: linear-gradient(90deg, rgba(0, 170, 255, 0.01) 0%, rgba(0, 170, 255, 0.05) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  gap: 24px;
+}
+.background .contact .contactboxs .leftboxs .inputname {
+  background: linear-gradient(90deg, rgba(0, 170, 255, 0.01) 0%, rgba(0, 170, 255, 0.05) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  padding: 18px 14px;
+  outline: none;
+  color: rgba(249, 249, 249, 0.6);
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 16.66px;
+}
+.background .contact .contactboxs .leftboxs .overviewinput {
+  background: linear-gradient(90deg, rgba(0, 170, 255, 0.01) 0%, rgba(0, 170, 255, 0.05) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  outline: none;
+  padding: 18px 14px;
+  color: rgba(249, 249, 249, 0.6);
+  padding-bottom: 106px;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 16.66px;
+}
+.background .contact .contactboxs .leftboxs button {
+  background: linear-gradient(90deg, rgba(0, 170, 255, 0.01) 0%, rgba(0, 170, 255, 0.05) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  padding: 18px 14px;
+  outline: none;
+  color: white;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 16.66px;
+}
+.background .contact .contactboxs .leftboxs .inputname::-moz-placeholder {
+  color: rgba(249, 249, 249, 0.6);
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 16.66px;
+}
+.background .contact .contactboxs .leftboxs .inputname::placeholder {
+  color: rgba(249, 249, 249, 0.6);
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 16.66px;
+}
+.background .contact .contactboxs .adress {
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+  width: 40%;
+  padding: 15px;
+}
+.background .contact .contactboxs .adress .adressname {
+  width: 43px;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #051722;
+  padding: 13px 21px;
+}
+.background .contact .contactboxs .adress .adressname h2 {
+  color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.2300000042px;
+}
+.background .contact .contactboxs .adress .adresscontrol {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 18px;
+  padding: 26px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  border: 1px solid rgba(251, 251, 251, 0.0509803922);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.background .contact .contactboxs .adress .adresscontrol .firstadress {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+.background .contact .contactboxs .adress .adresscontrol .firstadress .adressicon {
+  padding: 18px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.02) 0%, rgba(0, 170, 255, 0) 100%);
+  border: 1px solid rgba(251, 251, 251, 0.1019607843);
+}
+.background .contact .contactboxs .adress .adresscontrol .firstadress .adresslocation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 17px 27px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.background .contact .contactboxs .adress .adresscontrol .firstadress .adresslocation h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.75px;
+  color: #f9f9f9;
+}
+.background .contact .contactboxs .adress .adresscontrol .firstadress .adresslocation h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.2300000042px;
+  color: rgba(249, 249, 249, 0.6);
+}
+.background .contact .contactboxs .adress .adresscontrol .contactadress {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+.background .contact .contactboxs .adress .adresscontrol .contactadress .contactadressicon {
+  padding: 18px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.02) 0%, rgba(0, 170, 255, 0) 100%);
+  border: 1px solid rgba(251, 251, 251, 0.1019607843);
+}
+.background .contact .contactboxs .adress .adresscontrol .contactadress .contactadresslocation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 17px 27px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  border: 1px solid rgba(252, 252, 252, 0.0509803922);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.background .contact .contactboxs .adress .adresscontrol .contactadress .contactadresslocation h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.75px;
+  color: #f9f9f9;
+}
+.background .contact .contactboxs .adress .adresscontrol .contactadress .contactadresslocation h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.2300000042px;
+  color: rgba(249, 249, 249, 0.6);
+}/*# sourceMappingURL=index.module.css.map */
