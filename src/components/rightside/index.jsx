@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import Container from "../UI/container";
 import FatimaPP from "../../assets/images/fatima.svg";
@@ -149,8 +149,43 @@ const RightSide = () => {
     },
   ]);
   const [counterOn, setCounterOn] = useState(false);
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+  const formatTime = (date) => {
+    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+
+    const dayOfWeek = days[date.getDay()];
+    const dayOfMonth = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+
+    return `${dayOfWeek}, ${dayOfMonth} ${month} ${year}`;
+  };
   return (
-    <div className={styles.background}>
+    <div id="1" className={styles.background}>
       <Container position="fixed">
         <div className={styles.fixedcontrol}>
           <div className={styles.control}>
@@ -167,11 +202,11 @@ const RightSide = () => {
                   </div>
                   <div className={styles.online}>
                     <h2>
-                      <ClockIcon /> Wednesday, 13 March, 2024
+                      <ClockIcon /> {formatTime(currentTime)}
                     </h2>
                   </div>
                   <div className={styles.online}>
-                    <h2>Contact Me</h2>
+                    <a href="#4">Contact Me</a>
                   </div>
                 </div>
               </div>
@@ -212,7 +247,7 @@ const RightSide = () => {
         </div>
       </Container>
       <Container position="fixed">
-        <div className={styles.projects}>
+        <div id="2" className={styles.projects}>
           <div className={styles.projecttitle}>
             <div className={styles.projectname}>
               <h2>Projects</h2>
@@ -304,7 +339,7 @@ const RightSide = () => {
         </div>
       </Container>
       <Container position="fixed">
-        <div className={styles.abouteducation}>
+        <div id="3" className={styles.abouteducation}>
           <div className={styles.education}>
             <div className={styles.educationtitle}>
               <h2>Education</h2>
@@ -434,7 +469,7 @@ const RightSide = () => {
         </div>
       </Container>
       <Container position="fixed">
-        <div className={styles.contact}>
+        <div id="4" className={styles.contact}>
           <div className={styles.contacttitle}>
             <div className={styles.contactname}>
               <h2>Contact</h2>
@@ -469,22 +504,22 @@ const RightSide = () => {
               </div>
               <div className={styles.adresscontrol}>
                 <div className={styles.firstadress}>
-                    <div className={styles.adressicon}>
-                    <AdressIcon/>
-                    </div>
-                    <div className={styles.adresslocation}>
-                      <h1>Location</h1>
-                      <h2>Baku,Azerbaijan</h2>
-                    </div>
+                  <div className={styles.adressicon}>
+                    <AdressIcon />
+                  </div>
+                  <div className={styles.adresslocation}>
+                    <h1>Location</h1>
+                    <h2>Baku,Azerbaijan</h2>
+                  </div>
                 </div>
                 <div className={styles.contactadress}>
-                    <div className={styles.contactadressicon}>
-                   <ContactInfoIcon/>
-                    </div>
-                    <div className={styles.contactadresslocation}>
-                      <h1>Contact Info</h1>
-                      <h2>fathimabashirli@gmail.com</h2>
-                    </div>
+                  <div className={styles.contactadressicon}>
+                    <ContactInfoIcon />
+                  </div>
+                  <div className={styles.contactadresslocation}>
+                    <h1>Contact Info</h1>
+                    <h2>fathimabashirli@gmail.com</h2>
+                  </div>
                 </div>
               </div>
             </div>

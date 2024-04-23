@@ -1,1 +1,8 @@
-/*# sourceMappingURL=index.module.css.map */
+.home .left {
+  position: fixed;
+  width: 351px;
+}
+.home .right {
+  margin-left: 430px;
+  width: calc(100% - 430px);
+}/*# sourceMappingURL=index.module.css.map */

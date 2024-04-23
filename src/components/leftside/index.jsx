@@ -63,8 +63,8 @@ const LeftSide = () => {
         </div>
       </div>
       <div className={styles.menu}>
-        <Link
-          to={"/"}
+        <a
+          href="#1"
           onClick={() => setActive("home")}
           className={active == "home" ? styles.active : styles.menubackground}
         >
@@ -72,9 +72,9 @@ const LeftSide = () => {
             <HomeIcon />
           </div>
           <h2>Home</h2>
-        </Link>
-        <Link
-          to={"/"}
+        </a>
+        <a
+          href="#2"
           onClick={() => setActive("projects")}
           className={
             active == "projects" ? styles.active : styles.menubackground
@@ -84,9 +84,9 @@ const LeftSide = () => {
             <ProjectIcon />
           </div>
           <h2>Projects</h2>
-        </Link>
-        <Link
-          to={"/"}
+        </a>
+        <a
+          href="#3"
           onClick={() => setActive("about")}
           className={active == "about" ? styles.active : styles.menubackground}
         >
@@ -94,9 +94,9 @@ const LeftSide = () => {
             <AboutIcon />
           </div>
           <h2>About</h2>
-        </Link>
-        <Link
-          to={"/"}
+        </a>
+        <a
+          href="#4"
           onClick={() => setActive("contact")}
           className={
             active == "contact" ? styles.active : styles.menubackground
@@ -106,14 +106,25 @@ const LeftSide = () => {
             <ContactIcon />
           </div>
           <h2>Contact</h2>
-        </Link>
+        </a>
       </div>
       <div className={styles.contacts}>
         <div className={styles.iconsbackground}>
-          <BehanceIcon />
-          <TelegramIcon />
-          <InstagramIcon />
-          <LinkedinIcon />
+          <Link target="_blank" to={"https://www.behance.net/fatimabashirli"}>
+            <BehanceIcon />
+          </Link>
+          <Link target="_blank" to={"https://t.me/fbashirovaa"}>
+            <TelegramIcon />
+          </Link>
+          <Link target="_blank" to={"https://www.instagram.com/fatya.ffe/"}>
+            <InstagramIcon />
+          </Link>
+          <Link
+            target="_blank"
+            to={"https://www.linkedin.com/in/fatima-bashirli-104348286/"}
+          >
+            <LinkedinIcon />
+          </Link>
         </div>
         <div className={styles.copyright}>
           <h1>©</h1>

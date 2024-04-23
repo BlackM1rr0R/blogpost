@@ -1,0 +1,12 @@
+.home {
+  .left {
+    position: fixed;
+    width: 351px;
+  }
+  .right {
+    margin-left: 430px; 
+    width: calc(
+      100% - 430px
+    ); 
+  }
+}

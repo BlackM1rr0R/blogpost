@@ -8,12 +8,17 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Wrapper>
-        <Container>
-          <LeftSide />
-        </Container>
+        <div className={styles.left}>
+          <Container>
+            <LeftSide />
+          </Container>
+        </div>
+        <div className={styles.right}>
+
         <Container position="right">
           <RightSide />
         </Container>
+        </div>
       </Wrapper>
     </div>
   );

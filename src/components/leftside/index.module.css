@@ -105,6 +105,7 @@
   padding-top: 40px;
 }
 .background .contacts .iconsbackground {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
