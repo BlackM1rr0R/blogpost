@@ -1,12 +1,24 @@
 .home {
   .left {
     position: fixed;
-    width: 351px;
   }
   .right {
     margin-left: 430px; 
     width: calc(
       100% - 430px
     ); 
+  }
+}
+@media (max-width: 492px) {
+  .home {
+    
+    .left {
+      position: relative;
+    }
+    .right {
+
+      margin-left: 0; 
+      width: 100%;
+    }
   }
 }

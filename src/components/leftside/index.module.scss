@@ -139,3 +139,19 @@
     }
   }
 }
+@media(max-width:492px){
+  .background{
+    .logo{
+      
+    }
+    .fatima{
+      display: none;
+    }
+    .menu{
+      display: none;
+    }
+    .contacts{
+      display: none;
+    }
+  }
+}

@@ -14,10 +14,9 @@ const Home = () => {
           </Container>
         </div>
         <div className={styles.right}>
-
-        <Container position="right">
-          <RightSide />
-        </Container>
+          <Container position="right">
+            <RightSide />
+          </Container>
         </div>
       </Wrapper>
     </div>

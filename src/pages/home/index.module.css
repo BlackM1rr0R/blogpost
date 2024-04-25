@@ -1,8 +1,17 @@
 .home .left {
   position: fixed;
-  width: 351px;
 }
 .home .right {
   margin-left: 430px;
   width: calc(100% - 430px);
+}
+
+@media (max-width: 492px) {
+  .home .left {
+    position: relative;
+  }
+  .home .right {
+    margin-left: 0;
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.module.css.map */

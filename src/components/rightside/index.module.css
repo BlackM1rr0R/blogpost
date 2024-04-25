@@ -3,6 +3,9 @@
   align-items: center;
   gap: 19px;
 }
+.background .control .leftphoto img {
+  width: 50px;
+}
 .background .control .controlright .righthero {
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #041118;
@@ -113,7 +116,6 @@
 .background .control .controlright .aboutme .rightabout .screenphoto img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
   height: 215px;
 }
 .background .projects {
@@ -127,6 +129,8 @@
   padding: 15px;
 }
 .background .projects .projecttitle .projectname {
+  display: flex;
+  align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #051722;
   padding: 12px 20px;
@@ -158,6 +162,7 @@
   gap: 26px;
 }
 .background .projects .maps .border {
+  width: 28%;
   background-color: #050e14;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 8px;
@@ -207,6 +212,8 @@
   padding: 15px;
 }
 .background .customers .customerstitle .customersname {
+  display: flex;
+  align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #051722;
   padding: 12px 20px;
@@ -386,6 +393,8 @@
   padding: 15px;
 }
 .background .services .servicestitle .servicesname {
+  display: flex;
+  align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #051722;
   padding: 12px 20px;
@@ -416,7 +425,7 @@
   gap: 13px;
 }
 .background .services .servicesboxs .servicesborder {
-  width: 44%;
+  width: 41%;
   padding: 26px;
   background-color: #051017;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
@@ -440,7 +449,7 @@
 }
 .background .services .servicesboxs .servicesborder .servicescontrol .servicestext p {
   color: rgba(255, 255, 255, 0.548);
-  font-size: 11.81px;
+  font-size: 9px;
   font-weight: 400;
   line-height: 15px;
   letter-spacing: 0.2300000042px;
@@ -469,6 +478,8 @@
   padding: 15px;
 }
 .background .testimonial .testimonialtitle .testimonialname {
+  display: flex;
+  align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #051722;
   padding: 12px 20px;
@@ -574,6 +585,8 @@
   padding: 15px;
 }
 .background .contact .contacttitle .contactname {
+  display: flex;
+  align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background-color: #051722;
   padding: 12px 20px;
@@ -642,13 +655,13 @@
   line-height: 16.66px;
 }
 .background .contact .contactboxs .leftboxs .inputname::-moz-placeholder {
-  color: rgba(249, 249, 249, 0.6);
+  color: rgba(88, 88, 88, 0.7529411765);
   font-size: 12.8px;
   font-weight: 400;
   line-height: 16.66px;
 }
 .background .contact .contactboxs .leftboxs .inputname::placeholder {
-  color: rgba(249, 249, 249, 0.6);
+  color: rgba(88, 88, 88, 0.7529411765);
   font-size: 12.8px;
   font-weight: 400;
   line-height: 16.66px;
@@ -694,7 +707,7 @@
   border: 1px solid rgba(251, 251, 251, 0.1019607843);
 }
 .background .contact .contactboxs .adress .adresscontrol .firstadress .adresslocation {
-  width: 100%;
+  width: 223px;
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -728,7 +741,6 @@
   border: 1px solid rgba(251, 251, 251, 0.1019607843);
 }
 .background .contact .contactboxs .adress .adresscontrol .contactadress .contactadresslocation {
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -736,6 +748,7 @@
   background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
   border: 1px solid rgba(252, 252, 252, 0.0509803922);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+  width: 223px;
 }
 .background .contact .contactboxs .adress .adresscontrol .contactadress .contactadresslocation h1 {
   font-size: 16px;
@@ -750,4 +763,84 @@
   line-height: 21px;
   letter-spacing: 0.2300000042px;
   color: rgba(249, 249, 249, 0.6);
+}
+
+@media (max-width: 492px) {
+  .background .fixedcontrol .control .controlright .righthero .heroheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .fixedcontrol .control .controlright .righthero .heroheader .online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .background .fixedcontrol .control .controlright .aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .projects .maps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .background .projects .maps .border {
+    width: auto;
+  }
+  .background .customers .customersmarke {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .background .customers .customersmarke .google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
+  .background .customers .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .customers .stats .stat {
+    width: auto;
+  }
+  .background .abouteducation {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .abouteducation .education {
+    width: auto;
+  }
+  .background .abouteducation .education .educationinfo .educationabout h1 {
+    font-size: 13px;
+  }
+  .background .abouteducation .aboutexperience {
+    width: auto;
+  }
+  .background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+    font-size: 13px;
+  }
+  .background .services .servicesboxs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .background .services .servicesboxs .servicesborder {
+    width: auto;
+  }
+  .background .testimonial .testimonialboxs {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .contact .contactboxs {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .contact .contactboxs .leftboxs {
+    width: auto;
+  }
+  .background .contact .contactboxs .adress {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.module.css.map */

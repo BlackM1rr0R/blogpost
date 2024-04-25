@@ -189,9 +189,6 @@ const RightSide = () => {
       <Container position="fixed">
         <div className={styles.fixedcontrol}>
           <div className={styles.control}>
-            <div className={styles.leftphoto}>
-              <img src={FatimaPP} alt="" />
-            </div>
             <div className={styles.controlright}>
               <div className={styles.righthero}>
                 <div className={styles.heroheader}>
@@ -304,9 +301,6 @@ const RightSide = () => {
             </div>
             <div className={styles.google}>
               <img src={LinkedinIcon} alt="" />
-            </div>
-            <div className={styles.google}>
-              <img src={NetflixIcon} alt="" />
             </div>
           </div>
           <ScrollTrigger
