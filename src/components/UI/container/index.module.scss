@@ -23,7 +23,7 @@
 @media (max-width: 492px) {
   .container {
     padding: 20px;
-    width: 100%;
+    width: auto;
     height: auto;
   }
   .rightcontainer{
@@ -32,7 +32,7 @@
   
   }
   .fixedcontainer{
-    width: 94%;
+    width: auto;
     margin-top: 19px;
     background-color: #040b10;
     border: 1px solid #fcfcfc33;

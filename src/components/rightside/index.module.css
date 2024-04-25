@@ -1,3 +1,6 @@
+.background {
+  padding-bottom: 30px;
+}
 .background .control {
   display: flex;
   align-items: center;
