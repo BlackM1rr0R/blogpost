@@ -838,110 +838,224 @@
     }
   }
 }
-@media(max-width:492px){
-  .background{
-    .fixedcontrol{
-      .control{
-        .controlright{
-          .righthero{
-            .heroheader{
+@media (max-width: 492px) {
+  .background {
+    .fixedcontrol {
+      .control {
+        .controlright {
+          .righthero {
+            .heroheader {
               display: flex;
               flex-direction: column;
-              .online{
+              .online {
                 display: flex;
                 align-items: center;
                 justify-content: center;
               }
             }
           }
-          .aboutme{
+          .aboutme {
             display: flex;
             flex-direction: column;
-            .leftabout{
-
+            .leftabout {
             }
           }
         }
       }
     }
-    .projects{
-      .maps{
+    .projects {
+      .maps {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        .border{
+        .border {
           width: auto;
+       
         }
       }
     }
-    .customers{
-      .customersmarke{
+    .customers {
+      .customersmarke {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        .google{
+        .google {
           display: flex;
           align-items: center;
           justify-content: center;
           height: 40px;
         }
       }
-      .stats{
+      .stats {
         display: flex;
         flex-direction: column;
-        .stat{
+        .stat {
           width: auto;
         }
       }
     }
-    .abouteducation{
+    .abouteducation {
       display: flex;
       flex-direction: column;
-      .education{
+      .education {
         width: auto;
-        .educationinfo{
-          .educationabout{
-            h1{
+        .educationinfo {
+          .educationabout {
+            h1 {
               font-size: 13px;
             }
           }
         }
       }
-      .aboutexperience{
+      .aboutexperience {
         width: auto;
-        .experienceinfo{
-          .experienceabout{
-            h1{
+        .experienceinfo {
+          .experienceabout {
+            h1 {
               font-size: 13px;
             }
           }
         }
       }
     }
-    .services{
-      .servicesboxs{
+    .services {
+      .servicesboxs {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        .servicesborder{
+        .servicesborder {
           width: auto;
         }
       }
     }
-    .testimonial{
-      .testimonialboxs{
+    .testimonial {
+      .testimonialboxs {
         display: flex;
         flex-direction: column;
       }
     }
-    .contact{
-      .contactboxs{
+    .contact {
+      .contactboxs {
         display: flex;
         flex-direction: column;
-        .leftboxs{
+        .leftboxs {
           width: auto;
         }
-        .adress{
+        .adress {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 493px) {
+  .background {
+    .fixedcontrol {
+      .control {
+        .controlright {
+          .righthero {
+            .heroheader {
+              display: flex;
+              flex-direction: column;
+              .online {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+          .aboutme {
+            display: flex;
+            flex-direction: column;
+            .rightabout {
+              .screenphoto {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    .projects {
+      .maps {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .border {
+          width: auto;
+        }
+      }
+    }
+    .customers {
+      .customersmarke {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .google {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+        }
+      }
+      .stats {
+        display: flex;
+        flex-direction: column;
+        .stat {
+          width: auto;
+        }
+      }
+    }
+    .abouteducation {
+      display: flex;
+      flex-direction: column;
+      .education {
+        width: auto;
+        .educationinfo {
+          .educationabout {
+            h1 {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      .aboutexperience {
+        width: auto;
+        .experienceinfo {
+          .experienceabout {
+            h1 {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+    .services {
+      .servicesboxs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .servicesborder {
+          width: auto;
+        }
+      }
+    }
+    .testimonial {
+      .testimonialboxs {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .contact {
+      .contactboxs {
+        display: flex;
+        flex-direction: column;
+        .leftboxs {
+          width: auto;
+        }
+        .adress {
           width: auto;
         }
       }

@@ -14,4 +14,13 @@
     margin-left: 0;
     width: 100%;
   }
+}
+@media screen and (max-width: 992px) and (min-width: 493px) {
+  .home .left {
+    position: relative;
+  }
+  .home .right {
+    margin-left: 0;
+    width: auto;
+  }
 }/*# sourceMappingURL=index.module.css.map */

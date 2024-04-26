@@ -846,4 +846,88 @@
   .background .contact .contactboxs .adress {
     width: auto;
   }
+}
+@media screen and (max-width: 992px) and (min-width: 493px) {
+  .background .fixedcontrol .control .controlright .righthero .heroheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .fixedcontrol .control .controlright .righthero .heroheader .online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .background .fixedcontrol .control .controlright .aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .fixedcontrol .control .controlright .aboutme .rightabout .screenphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background .projects .maps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .background .projects .maps .border {
+    width: auto;
+  }
+  .background .customers .customersmarke {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .background .customers .customersmarke .google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
+  .background .customers .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .customers .stats .stat {
+    width: auto;
+  }
+  .background .abouteducation {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .abouteducation .education {
+    width: auto;
+  }
+  .background .abouteducation .education .educationinfo .educationabout h1 {
+    font-size: 13px;
+  }
+  .background .abouteducation .aboutexperience {
+    width: auto;
+  }
+  .background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+    font-size: 13px;
+  }
+  .background .services .servicesboxs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .background .services .servicesboxs .servicesborder {
+    width: auto;
+  }
+  .background .testimonial .testimonialboxs {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .contact .contactboxs {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .contact .contactboxs .leftboxs {
+    width: auto;
+  }
+  .background .contact .contactboxs .adress {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.module.css.map */

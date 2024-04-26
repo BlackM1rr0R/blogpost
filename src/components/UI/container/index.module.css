@@ -35,4 +35,21 @@
     border: 1px solid rgba(252, 252, 252, 0.2);
     padding: 19px;
   }
+}
+@media screen and (max-width: 992px) and (min-width: 493px) {
+  .container {
+    padding: 20px;
+    width: auto;
+    height: auto;
+  }
+  .rightcontainer {
+    width: auto;
+  }
+  .fixedcontainer {
+    width: auto;
+    margin-top: 19px;
+    background-color: #040b10;
+    border: 1px solid rgba(252, 252, 252, 0.2);
+    padding: 19px;
+  }
 }/*# sourceMappingURL=index.module.css.map */

@@ -22,3 +22,17 @@
     }
   }
 }
+@media screen and (max-width: 992px) and (min-width: 493px) {
+  .home {
+    
+    .left {
+      position: relative;
+    }
+    .right {
+
+      margin-left: 0; 
+      width: auto;
+    }
+  }
+
+}
