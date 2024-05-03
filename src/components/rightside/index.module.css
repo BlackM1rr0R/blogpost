@@ -204,6 +204,19 @@
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 11px 14px;
 }
+.background .projects .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.background .projects .button button {
+  cursor: pointer;
+  background-color: #041016;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  padding: 10px 22px;
+  color: white;
+}
 .background .customers {
   background-color: #040b0f;
 }
@@ -315,24 +328,29 @@
   line-height: 14.4px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .education .educationinfo {
+.background .abouteducation .education .educationcontrol {
+  display: flex;
+  flex-wrap: wrap;
+}
+.background .abouteducation .education .educationcontrol .educationinfo {
   padding-top: 37px;
+  width: 48%;
   display: flex;
   gap: 18px;
 }
-.background .abouteducation .education .educationinfo .educationabout {
+.background .abouteducation .education .educationcontrol .educationinfo .educationabout {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.background .abouteducation .education .educationinfo .educationabout h3 {
+.background .abouteducation .education .educationcontrol .educationinfo .educationabout h3 {
   color: #8e8e8e;
   font-size: 10px;
   font-weight: 400;
   line-height: 10px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .education .educationinfo .educationabout h1 {
+.background .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
   color: white;
   font-size: 16px;
   font-weight: 400;
@@ -790,6 +808,18 @@
   .background .projects .maps .border {
     width: auto;
   }
+  .background .projects .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .background .projects .button button {
+    background-color: #041016;
+    border: 1px solid rgba(251, 251, 251, 0.1764705882);
+    padding: 10px 22px;
+    color: white;
+  }
   .background .customers .customersmarke {
     display: flex;
     flex-direction: column;
@@ -815,7 +845,14 @@
   .background .abouteducation .education {
     width: auto;
   }
-  .background .abouteducation .education .educationinfo .educationabout h1 {
+  .background .abouteducation .education .educationcontrol {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .abouteducation .education .educationcontrol .educationinfo {
+    width: 100%;
+  }
+  .background .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
     font-size: 13px;
   }
   .background .abouteducation .aboutexperience {

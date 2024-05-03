@@ -9,6 +9,7 @@ import {
   ClockIcon,
   ContactInfoIcon,
   DevelopmentIcon,
+  FigmaIcon,
   GraphicDesignIcon,
   LocationIcon,
   MediaManagerIcon,
@@ -23,7 +24,7 @@ import GoogleIcon from "../../assets/images/googlelogo.png";
 import UpworkIcon from "../../assets/images/upworklogo.png";
 import SlackIcon from "../../assets/images/slacklogo.png";
 import LinkedinIcon from "../../assets/images/linkedinlogo.png";
-import NetflixIcon from "../../assets/images/netflixlogo.png";
+
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
 import AdobeCloud from "../../assets/images/adobecloud.png";
@@ -75,10 +76,28 @@ const RightSide = () => {
       appphoto: `${AdobeCloud}`,
     },
     {
+      year: "2007-2017",
+      educationname: "Web Designer & Developer",
+      appeducation: "Adobe Creative Cloud",
+      appphoto: `${AdobeCloud}`,
+    },
+    {
+      year: "2007-2017",
+      educationname: "Web Designer & Developer",
+      appeducation: "Adobe Creative Cloud",
+      appphoto: `${AdobeCloud}`,
+    },
+    {
       year: "2017-2020",
       educationname: "Front-End Developer",
       appeducation: "Spotify",
       appphoto: `${Spotify}`,
+    },
+    {
+      year: "2020-2024",
+      educationname: "Webflow Developer & Co-Founder",
+      appeducation: "IBM Technologies",
+      appphoto: `${IBM}`,
     },
     {
       year: "2020-2024",
@@ -184,6 +203,7 @@ const RightSide = () => {
 
     return `${dayOfWeek}, ${dayOfMonth} ${month} ${year}`;
   };
+  const [hide, setHide] = useState(true);
   return (
     <div id="1" className={styles.background}>
       <Container position="fixed">
@@ -257,22 +277,31 @@ const RightSide = () => {
             </div>
           </div>
           <div className={styles.maps}>
-            {data?.map((item) => (
-              <div className={styles.border}>
-                <div className={styles.images}>
-                  <img src={item.images} alt="" />
-                </div>
-                <div className={styles.mapsname}>
-                  <div className={styles.mapstext}>
-                    <h1>{item.name}</h1>
-                    <h2>{item.overview}</h2>
+            {data?.map((item, index) => (
+              <>
+                {(hide && index < 3) || (!hide && index < 6) ? (
+                  <div className={styles.border}>
+                    <div className={styles.images}>
+                      <img src={item.images} alt="" />
+                    </div>
+                    <div className={styles.mapsname}>
+                      <div className={styles.mapstext}>
+                        <h1>{item.name}</h1>
+                        <h2>{item.overview}</h2>
+                      </div>
+                      <Link to={"/"} className={styles.mapsicon}>
+                        <ArrowIcon />
+                      </Link>
+                    </div>
                   </div>
-                  <Link to={"/"} className={styles.mapsicon}>
-                    <ArrowIcon />
-                  </Link>
-                </div>
-              </div>
+                ) : null}
+              </>
             ))}
+          </div>
+          <div className={styles.button}>
+            <button onClick={() => setHide(!hide)}>
+              {hide ? "Show More" : "Show Less"}
+            </button>
           </div>
         </div>
       </Container>
@@ -336,37 +365,22 @@ const RightSide = () => {
         <div id="3" className={styles.abouteducation}>
           <div className={styles.education}>
             <div className={styles.educationtitle}>
-              <h2>Education</h2>
+              <h2>Skills</h2>
             </div>
-            {education?.map((item) => (
-              <div className={styles.educationinfo}>
-                <div className={styles.educationimage}>
-                  <img src={item.appphoto} alt="" />
+            <div className={styles.educationcontrol}>
+              {education?.map((item) => (
+                <div className={styles.educationinfo}>
+                  <div className={styles.educationimage}>
+                    <img src={item.appphoto} alt="" />
+                  </div>
+                  <div className={styles.educationabout}>
+                    <h3>{item.year}</h3>
+                    <h1>{item.educationname}</h1>
+                    <h3>{item.appeducation}</h3>
+                  </div>
                 </div>
-                <div className={styles.educationabout}>
-                  <h3>{item.year}</h3>
-                  <h1>{item.educationname}</h1>
-                  <h3>{item.appeducation}</h3>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className={styles.aboutexperience}>
-            <div className={styles.experiencetitle}>
-              <h2>Experience</h2>
+              ))}
             </div>
-            {experience?.map((item) => (
-              <div className={styles.experienceinfo}>
-                <div className={styles.experienceimage}>
-                  <img src={item.appphoto} alt="" />
-                </div>
-                <div className={styles.experienceabout}>
-                  <h3>{item.year}</h3>
-                  <h1>{item.educationname}</h1>
-                  <h3>{item.appeducation}</h3>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </Container>
