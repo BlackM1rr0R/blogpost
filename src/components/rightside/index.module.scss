@@ -348,7 +348,8 @@
       .educationcontrol{
         display: flex;
         flex-wrap: wrap;
-          
+        
+        justify-content: space-between;
         .educationinfo {
           padding-top: 37px;
           width: 48%;

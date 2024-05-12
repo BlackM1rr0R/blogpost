@@ -40,6 +40,8 @@ import Travelly1 from '../../assets/images/travelly1.png'
 import KhafalovParfum from '../../assets/images/khalafovparfum.png'
 import FatimaHijab from '../../assets/images/fatimahijab.png'
 import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
+import FullStackLogo from '../../assets/images/fullstacklogo.png'
+import CloudDevelopment from '../../assets/images/cloudevelopment.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
@@ -97,21 +99,16 @@ const RightSide = () => {
   const [education, setEducation] = useState([
     {
       year: "2007-2017",
-      educationname: "Web Designer & Developer",
+      educationname: "Graphic and Web Designer",
       appeducation: "Adobe Creative Cloud",
       appphoto: `${AdobeCloud}`,
     },
+   
     {
       year: "2007-2017",
-      educationname: "Web Designer & Developer",
-      appeducation: "Adobe Creative Cloud",
-      appphoto: `${AdobeCloud}`,
-    },
-    {
-      year: "2007-2017",
-      educationname: "Web Designer & Developer",
-      appeducation: "Adobe Creative Cloud",
-      appphoto: `${AdobeCloud}`,
+      educationname: "Full Stack Developer",
+      
+      appphoto: `${FullStackLogo}`,
     },
     {
       year: "2017-2020",
@@ -121,15 +118,15 @@ const RightSide = () => {
     },
     {
       year: "2020-2024",
-      educationname: "Webflow Developer & Co-Founder",
-      appeducation: "IBM Technologies",
-      appphoto: `${IBM}`,
+      educationname: "Cloud Development Operation",
+      appeducation: "Mandro Studio",
+      appphoto: `${CloudDevelopment}`,
     },
     {
       year: "2020-2024",
-      educationname: "Webflow Developer & Co-Founder",
-      appeducation: "IBM Technologies",
-      appphoto: `${IBM}`,
+      educationname: "Figma Designing & Prototyping",
+      
+      appphoto: `${Figma}`,
     },
   ]);
   const [experience, setExperience] = useState([

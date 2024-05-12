@@ -331,6 +331,7 @@
 .background .abouteducation .education .educationcontrol {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .background .abouteducation .education .educationcontrol .educationinfo {
   padding-top: 37px;
