@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import Container from "../UI/container";
-import FatimaPP from "../../assets/images/fatima.svg";
 import {
   AdressIcon,
   ArrowIcon,
@@ -9,7 +8,6 @@ import {
   ClockIcon,
   ContactInfoIcon,
   DevelopmentIcon,
-  FigmaIcon,
   GraphicDesignIcon,
   LocationIcon,
   MediaManagerIcon,
@@ -18,16 +16,11 @@ import {
   UxIcon,
 } from "../../icons";
 import MapPP from "../../assets/images/az.svg";
-import LogoMarks from "../../assets/images/logo 1.png";
-import UrebAz from "../../assets/images/urebaz.png";
-import InterViewer from '../../assets/images/interviewer.png'
-import ShoppyAz from '../../assets/images/shoppyaz.png'
 import { Link } from "react-router-dom";
 import GoogleIcon from "../../assets/images/googlelogo.png";
 import UpworkIcon from "../../assets/images/upworklogo.png";
 import SlackIcon from "../../assets/images/slacklogo.png";
 import LinkedinIcon from "../../assets/images/linkedinlogo.png";
-import RashadBlog from '../../assets/images/rashadblog.png'
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
 import AdobeCloud from "../../assets/images/adobecloud.png";
@@ -37,43 +30,46 @@ import Figma from "../../assets/images/figma.png";
 import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
 import LarryPP from "../../assets/images/larry1.png";
-import AzeHolidays from '../../assets/images/azeholidays.png'
+import ModenQuran1 from '../../assets/images/modenquran1.png'
+import FatimaHijab from '../../assets/images/fatimahijab.png'
+import KhalafovParfum from '../../assets/images/khalafovparfum.png'
+import BinarySchool from '../../assets/images/binaryschool.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
     {
-      images: `${UrebAz}`,
-      name: "UREB create website",
+      images: `${FatimaHijab}`,
+      name: "Fatima Hijab Fashion Boutique ",
       overview: "Web Design",
       link:"https://sayt.az/domain"
     },
     {
-      images: `${InterViewer}`,
-      name: "Interviewer Platform",
-      overview: "Web Design",
+      images: `${KhalafovParfum}`,
+      name: "Khalafov Hamid Parfums",
+      overview: "Logo",
       link:"https://interviewer-2csi.vercel.app/"
     },
     {
-      images: `${ShoppyAz}`,
-      name: "Shoppy Website",
+      images: `${BinarySchool}`,
+      name: "Binaryschool.az",
       overview: "Web Design",
       link:"https://shoppy.az/"
     },
     {
-      images: `${RashadBlog}`,
-      name: "Rashad Mirza Blok",
+      images: `${BinarySchool}`,
+      name: "Binaryschool.az",
       overview: "Web Design",
       link:"https://rashadmirza.com/?page=1"
     },
     {
-      images: `${AzeHolidays}`,
-      name: "Azeholidays.com",
+      images: `${BinarySchool}`,
+      name: "Binaryschool.az",
       overview: "Web Design",
     },
     {
-      images: `${LogoMarks}`,
-      name: "Travelly.com",
-      overview: "UX/UI Design",
+      images: `${ModenQuran1}`,
+      name: "Quran reading website",
+      overview: "Web Design",
     },
   ]);
   const [education, setEducation] = useState([
