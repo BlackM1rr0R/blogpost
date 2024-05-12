@@ -37,6 +37,9 @@ import Ureb1 from '../../assets/images/ureb1.png'
 import RashadBlog1 from '../../assets/images/rashadblog1.png'
 import Interviewer1 from '../../assets/images/interview1.png'
 import Travelly1 from '../../assets/images/travelly1.png'
+import KhafalovParfum from '../../assets/images/khalafovparfum.png'
+import FatimaHijab from '../../assets/images/fatimahijab.png'
+import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
@@ -59,14 +62,30 @@ const RightSide = () => {
       link:"https://interviewer-2csi.vercel.app/"
     },
     {
+      images: `${KhafalovParfum}`,
+      name: "Khalafov Hamid Parfums",
+      overview: "Web Design",
+      link:"https://rashadmirza.com/?page=1"
+    },
+    {
       images: `${Travelly1}`,
       name: "Travelly.com",
       overview: "Web Design",
       link:"https://rashadmirza.com/?page=1"
     },
     {
+      images: `${FatimaHijab}`,
+      name: "Fatima Hijab Fashion Boutique ",
+      overview: "Web Design",
+    },
+    {
       images: `${BinarySchool}`,
       name: "Binaryschool.az",
+      overview: "Web Design",
+    },
+    {
+      images: `${ShoppyAz}`,
+      name: "Shoppy.az",
       overview: "Web Design",
     },
     {
@@ -286,7 +305,7 @@ const RightSide = () => {
           <div className={styles.maps}>
             {data?.map((item, index) => (
               <>
-                {(hide && index < 3) || (!hide && index < 6) ? (
+                {(hide && index < 3) || (!hide && index < 9) ? (
                   <div className={styles.border}>
                     <div className={styles.images}>
                       <img src={item.images} alt="" />
