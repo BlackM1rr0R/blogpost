@@ -31,33 +31,35 @@ import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
 import LarryPP from "../../assets/images/larry1.png";
 import ModenQuran1 from '../../assets/images/modenquran1.png'
-import FatimaHijab from '../../assets/images/fatimahijab.png'
-import KhalafovParfum from '../../assets/images/khalafovparfum.png'
 import BinarySchool from '../../assets/images/binaryschool.png'
+import Ureb1 from '../../assets/images/ureb1.png'
+import RashadBlog1 from '../../assets/images/rashadblog1.png'
+import Interviewer1 from '../../assets/images/interviewer1.png'
+import Travelly1 from '../../assets/images/travelly1.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
     {
-      images: `${FatimaHijab}`,
-      name: "Fatima Hijab Fashion Boutique ",
+      images: `${Ureb1}`,
+      name: "UREB.az (Sayt.az)",
       overview: "Web Design",
       link:"https://sayt.az/domain"
     },
     {
-      images: `${KhalafovParfum}`,
-      name: "Khalafov Hamid Parfums",
-      overview: "Logo",
+      images: `${RashadBlog1}`,
+      name: "rashadmirza.com",
+      overview: "Web Design",
+      link:"https://rashadmirza.com/?page=1"
+    },
+    {
+      images: `${Interviewer1}`,
+      name: "Interviewer.az",
+      overview: "Web Design",
       link:"https://interviewer-2csi.vercel.app/"
     },
     {
-      images: `${BinarySchool}`,
-      name: "Binaryschool.az",
-      overview: "Web Design",
-      link:"https://shoppy.az/"
-    },
-    {
-      images: `${BinarySchool}`,
-      name: "Binaryschool.az",
+      images: `${Travelly1}`,
+      name: "Travelly.com",
       overview: "Web Design",
       link:"https://rashadmirza.com/?page=1"
     },
