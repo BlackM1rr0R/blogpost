@@ -30,11 +30,12 @@ import Figma from "../../assets/images/figma.png";
 import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
 import LarryPP from "../../assets/images/larry1.png";
+import WilliamPP from '../../assets/images/manywilliam.png'
 import ModenQuran1 from '../../assets/images/modenquran1.png'
 import BinarySchool from '../../assets/images/binaryschool.png'
 import Ureb1 from '../../assets/images/ureb1.png'
 import RashadBlog1 from '../../assets/images/rashadblog1.png'
-import Interviewer1 from '../../assets/images/interviewer1.png'
+import Interviewer1 from '../../assets/images/interview1.png'
 import Travelly1 from '../../assets/images/travelly1.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
@@ -458,13 +459,13 @@ const RightSide = () => {
             </div>
             <div className={styles.larry}>
               <div className={styles.larryimages}>
-                <img src={LarryPP} alt="" />
+                <img src={WilliamPP} alt="" />
               </div>
               <div className={styles.larrytext}>
                 <div className={styles.larryinfo}>
                   <div className={styles.larryname}>
-                    <h1>Larry Daley</h1>
-                    <h3>Product Designer</h3>
+                    <h1>Manny William</h1>
+                    <h3>Full Stack Developer</h3>
                   </div>
                   <div className={styles.larryicon}>
                     <HomeIcon />
