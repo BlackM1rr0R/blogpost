@@ -105,12 +105,6 @@ const RightSide = () => {
     },
    
     {
-      year: "2007-2017",
-      educationname: "Full Stack Developer",
-      
-      appphoto: `${FullStackLogo}`,
-    },
-    {
       year: "2017-2020",
       educationname: "Front-End Developer",
       appeducation: "Spotify",
@@ -118,15 +112,21 @@ const RightSide = () => {
     },
     {
       year: "2020-2024",
-      educationname: "Cloud Development Operation",
-      appeducation: "Mandro Studio",
-      appphoto: `${CloudDevelopment}`,
+      educationname: "FigJam",
+      
+      appphoto: `${Figma}`,
+    },
+    {
+      year: "2007-2017",
+      educationname: "Full Stack Developer",
+      
+      appphoto: `${FullStackLogo}`,
     },
     {
       year: "2020-2024",
-      educationname: "Figma Designing & Prototyping",
-      
-      appphoto: `${Figma}`,
+      educationname: "Cloud Development Operation",
+      appeducation: "Mandro Studio",
+      appphoto: `${CloudDevelopment}`,
     },
   ]);
   const [experience, setExperience] = useState([
@@ -171,7 +171,7 @@ const RightSide = () => {
       servicesicon: <GraphicDesignIcon />,
     },
     {
-      servicesname: "Development",
+      servicesname: "Photograpy",
       servicesoverview: "I build website go live with Framer, Webflow",
       servicesprojects: "8 Projects",
       servicesicon: <DevelopmentIcon />,

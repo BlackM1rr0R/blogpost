@@ -848,7 +848,6 @@
   }
   .background .abouteducation .education .educationcontrol {
     display: flex;
-    flex-direction: column;
   }
   .background .abouteducation .education .educationcontrol .educationinfo {
     width: 100%;
