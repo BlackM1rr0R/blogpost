@@ -42,6 +42,8 @@ import FatimaHijab from '../../assets/images/fatimahijab.png'
 import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
 import FullStackLogo from '../../assets/images/fullstacklogo.png'
 import CloudDevelopment from '../../assets/images/cloudevelopment.png'
+import CanvaPP from '../../assets/images/canvaphoto.png'
+import MsOffice from '../../assets/images/msofficephoto.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
@@ -113,20 +115,20 @@ const RightSide = () => {
     {
       year: "2020-2024",
       educationname: "FigJam",
-      
+      appeducation:"Bluebase Designs",
       appphoto: `${Figma}`,
     },
     {
       year: "2007-2017",
-      educationname: "Full Stack Developer",
-      
-      appphoto: `${FullStackLogo}`,
+      educationname: "Canva & Balsamiq ",
+      appeducation:"Mandro Studio",
+      appphoto: `${CanvaPP}`,
     },
     {
       year: "2020-2024",
-      educationname: "Cloud Development Operation",
-      appeducation: "Mandro Studio",
-      appphoto: `${CloudDevelopment}`,
+      educationname: "Microsoft Office",
+      appeducation: "Larsen & Toubro",
+      appphoto: `${MsOffice}`,
     },
   ]);
   const [experience, setExperience] = useState([
