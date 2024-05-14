@@ -48,31 +48,31 @@ const RightSide = () => {
       images: `${Ureb1}`,
       name: "UREB.az (Sayt.az)",
       overview: "Web Design",
-      link:"https://sayt.az/domain"
+      link:"https://www.figma.com/design/oAH15AD0uKubuDAdgJtWOI/Sayt.az?node-id=0-1&t=3eTWd6zEpEEEA9Dr-0"
     },
     {
       images: `${RashadBlog1}`,
       name: "rashadmirza.com",
       overview: "Web Design",
-      link:"https://rashadmirza.com/?page=1"
+      link:"https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design"
     },
     {
       images: `${Interviewer1}`,
       name: "Interviewer.az",
       overview: "Web Design",
-      link:"https://interviewer-2csi.vercel.app/"
+      link:"https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design"
     },
     {
       images: `${KhafalovParfum}`,
       name: "Khalafov Hamid Parfums",
       overview: "Web Design",
-      link:"https://rashadmirza.com/?page=1"
+    
     },
     {
       images: `${Travelly1}`,
       name: "Travelly.com",
       overview: "Web Design",
-      link:"https://rashadmirza.com/?page=1"
+      link:"https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study"
     },
     {
       images: `${FatimaHijab}`,
@@ -88,11 +88,13 @@ const RightSide = () => {
       images: `${ShoppyAz}`,
       name: "Shoppy.az",
       overview: "Web Design",
+      link:"https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design"
     },
     {
       images: `${ModenQuran1}`,
       name: "Quran reading website",
       overview: "Web Design",
+      link:"https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page"
     },
   ]);
   const [education, setEducation] = useState([
