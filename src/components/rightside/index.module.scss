@@ -314,49 +314,161 @@
       }
     }
   }
-  .abouteducation {
-    background-color: #040b0f;
+  .controlpages{
     display: flex;
-    justify-content: space-between;
-    gap: 18px;
-    .education {
+    gap: 20px;
+    width: 100%;
+    .abouteducation {
+      background-color: #040b0f;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
       width: 100%;
-      border: 1px solid #fbfbfb2d;
-      background: linear-gradient(
-        270deg,
-        rgba(0, 170, 255, 0.04) 0%,
-        rgba(0, 170, 255, 0.02) 100%
-      );
-      box-shadow: 0px 1px 2px 0px #00000040;
-
-      padding: 15px;
-      .educationtitle {
-        width: 105px;
-        display: flex;
-        justify-content: center;
+      .education {
+        width: 100%;
         border: 1px solid #fbfbfb2d;
-        background-color: #051722;
-        padding: 15px 18px;
-        h2 {
-          color: #f9f9f9;
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 14.4px;
-          letter-spacing: 0.23000000417232513px;
+        background: linear-gradient(
+          270deg,
+          rgba(0, 170, 255, 0.04) 0%,
+          rgba(0, 170, 255, 0.02) 100%
+        );
+        box-shadow: 0px 1px 2px 0px #00000040;
+  
+        padding: 15px;
+        .educationtitle {
+          width: 105px;
+          display: flex;
+          justify-content: center;
+          border: 1px solid #fbfbfb2d;
+          background-color: #051722;
+          padding: 15px 18px;
+          h2 {
+            color: #f9f9f9;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 14.4px;
+            letter-spacing: 0.23000000417232513px;
+          }
+        }
+        .educationcontrol{
+          display: flex;
+         flex-direction: column;
+          width: 100%;
+          justify-content: space-between;
+          .educationinfo {
+            padding-top: 37px;
+            width: 100%;
+            display: flex;
+    
+            gap: 18px;
+            .educationabout {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              h3 {
+                color: #8e8e8e;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 10px;
+                letter-spacing: 0.23000000417232513px;
+              }
+              h1 {
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: -0.75px;
+              }
+            }
+          }
         }
       }
-      .educationcontrol{
-        display: flex;
-        flex-wrap: wrap;
-        
-        justify-content: space-between;
-        .educationinfo {
-          padding-top: 37px;
-          width: 48%;
-          display: flex;
+      
+    }
+    .aboutskills {
+      background-color: #040b0f;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      width: 100%;
+      .skills {
+        width: 100%;
+        border: 1px solid #fbfbfb2d;
+        background: linear-gradient(
+          270deg,
+          rgba(0, 170, 255, 0.04) 0%,
+          rgba(0, 170, 255, 0.02) 100%
+        );
+        box-shadow: 0px 1px 2px 0px #00000040;
   
+        padding: 15px;
+      
+        .skillscontrol{
+          display: flex;
+          flex-direction: column;
+          gap: 45px;
+          justify-content: space-between;
+          
+          .skillsinfo {
+            
+            width: 100%;
+            display: flex;
+    
+            gap: 18px;
+            .skillsabout {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              h3 {
+                color: #8e8e8e;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 10px;
+                letter-spacing: 0.23000000417232513px;
+              }
+              h1 {
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: -0.75px;
+              }
+            }
+          }
+        }
+      }
+      .aboutexperience {
+        width: 100%;
+        border: 1px solid #fbfbfb2d;
+        background: linear-gradient(
+          270deg,
+          rgba(0, 170, 255, 0.04) 0%,
+          rgba(0, 170, 255, 0.02) 100%
+        );
+        box-shadow: 0px 1px 2px 0px #00000040;
+        padding: 15px;
+        .experiencetitle {
+          width: 105px;
+          display: flex;
+          justify-content: center;
+          border: 1px solid #fbfbfb2d;
+          background-color: #051722;
+          padding: 15px 18px;
+          h2 {
+            color: #f9f9f9;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 14.4px;
+            letter-spacing: 0.23000000417232513px;
+          }
+        }
+        .experienceinfo {
+          padding-top: 37px;
+  
+          display: flex;
           gap: 18px;
-          .educationabout {
+  
+          .experienceabout {
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -374,58 +486,6 @@
               line-height: 16px;
               letter-spacing: -0.75px;
             }
-          }
-        }
-      }
-    }
-    .aboutexperience {
-      width: 100%;
-      border: 1px solid #fbfbfb2d;
-      background: linear-gradient(
-        270deg,
-        rgba(0, 170, 255, 0.04) 0%,
-        rgba(0, 170, 255, 0.02) 100%
-      );
-      box-shadow: 0px 1px 2px 0px #00000040;
-      padding: 15px;
-      .experiencetitle {
-        width: 105px;
-        display: flex;
-        justify-content: center;
-        border: 1px solid #fbfbfb2d;
-        background-color: #051722;
-        padding: 15px 18px;
-        h2 {
-          color: #f9f9f9;
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 14.4px;
-          letter-spacing: 0.23000000417232513px;
-        }
-      }
-      .experienceinfo {
-        padding-top: 37px;
-
-        display: flex;
-        gap: 18px;
-
-        .experienceabout {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          h3 {
-            color: #8e8e8e;
-            font-size: 10px;
-            font-weight: 400;
-            line-height: 10px;
-            letter-spacing: 0.23000000417232513px;
-          }
-          h1 {
-            color: white;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 16px;
-            letter-spacing: -0.75px;
           }
         }
       }
@@ -928,35 +988,40 @@
         }
       }
     }
-    .abouteducation {
+    .controlpages{
       display: flex;
       flex-direction: column;
-      .education {
-        width: auto;
-         .educationcontrol{
-          display: flex;
-          
-        .educationinfo {
-          width: 100%;
-          .educationabout {
-            h1 {
-              font-size: 13px;
+      .abouteducation {
+        display: flex;
+        flex-direction: column;
+        .education {
+          width: auto;
+           .educationcontrol{
+            display: flex;
+            
+          .educationinfo {
+            width: 100%;
+            .educationabout {
+              h1 {
+                font-size: 13px;
+              }
             }
           }
         }
-      }
-      }
-      .aboutexperience {
-        width: auto;
-        .experienceinfo {
-          .experienceabout {
-            h1 {
-              font-size: 13px;
+        }
+        .aboutexperience {
+          width: auto;
+          .experienceinfo {
+            .experienceabout {
+              h1 {
+                font-size: 13px;
+              }
             }
           }
         }
       }
     }
+    
     .services {
       .servicesboxs {
         display: flex;
@@ -1047,29 +1112,34 @@
         }
       }
     }
-    .abouteducation {
+    .controlpages{
       display: flex;
       flex-direction: column;
-      .education {
-        width: auto;
-        .educationinfo {
-          .educationabout {
-            h1 {
-              font-size: 13px;
+      .abouteducation {
+        display: flex;
+        flex-direction: column;
+        .education {
+          width: auto;
+          .educationinfo {
+            .educationabout {
+              h1 {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+        .aboutexperience {
+          width: auto;
+          .experienceinfo {
+            .experienceabout {
+              h1 {
+                font-size: 13px;
+              }
             }
           }
         }
       }
-      .aboutexperience {
-        width: auto;
-        .experienceinfo {
-          .experienceabout {
-            h1 {
-              font-size: 13px;
-            }
-          }
-        }
-      }
+
     }
     .services {
       .servicesboxs {

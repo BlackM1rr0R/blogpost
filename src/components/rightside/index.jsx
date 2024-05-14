@@ -25,7 +25,6 @@ import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
 import AdobeCloud from "../../assets/images/adobecloud.png";
 import Spotify from "../../assets/images/spotify.png";
-import IBM from "../../assets/images/ibm.png";
 import Figma from "../../assets/images/figma.png";
 import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
@@ -40,8 +39,6 @@ import Travelly1 from '../../assets/images/travelly1.png'
 import KhafalovParfum from '../../assets/images/khalafovparfum.png'
 import FatimaHijab from '../../assets/images/fatimahijab.png'
 import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
-import FullStackLogo from '../../assets/images/fullstacklogo.png'
-import CloudDevelopment from '../../assets/images/cloudevelopment.png'
 import CanvaPP from '../../assets/images/canvaphoto.png'
 import MsOffice from '../../assets/images/msofficephoto.png'
 import { HomeIcon } from "../../icons";
@@ -105,13 +102,16 @@ const RightSide = () => {
       appeducation: "Adobe Creative Cloud",
       appphoto: `${AdobeCloud}`,
     },
-   
     {
       year: "2017-2020",
       educationname: "Front-End Developer",
       appeducation: "Spotify",
       appphoto: `${Spotify}`,
     },
+   
+  
+  ]);
+  const [skills, setSkills] = useState([
     {
       year: "2020-2024",
       educationname: "FigJam",
@@ -121,15 +121,19 @@ const RightSide = () => {
     {
       year: "2007-2017",
       educationname: "Canva & Balsamiq ",
-      appeducation:"Mandro Studio",
+      appeducation: "Mandro Studio",
       appphoto: `${CanvaPP}`,
     },
     {
-      year: "2020-2024",
+      year: "2017-2020",
       educationname: "Microsoft Office",
       appeducation: "Larsen & Toubro",
       appphoto: `${MsOffice}`,
     },
+   
+  
+  
+   
   ]);
   const [experience, setExperience] = useState([
     {
@@ -175,7 +179,7 @@ const RightSide = () => {
     {
       servicesname: "Photograpy",
       servicesoverview: "I build website go live with Framer, Webflow",
-      servicesprojects: "8 Projects",
+      servicesprojects: "30 Projects",
       servicesicon: <DevelopmentIcon />,
     },
     {
@@ -387,11 +391,15 @@ const RightSide = () => {
         </div>
       </Container>
       <Container position="fixed">
+
+        <div className={styles.controlpages}>
+
         <div id="3" className={styles.abouteducation}>
           <div className={styles.education}>
             <div className={styles.educationtitle}>
               <h2>Skills</h2>
             </div>
+         
             <div className={styles.educationcontrol}>
               {education?.map((item) => (
                 <div className={styles.educationinfo}>
@@ -406,7 +414,30 @@ const RightSide = () => {
                 </div>
               ))}
             </div>
+            
           </div>
+        </div>
+        <div id="3" className={styles.aboutskills}>
+          <div className={styles.skills}>
+         
+         
+            <div className={styles.skillscontrol}>
+              {skills?.map((item) => (
+                <div className={styles.skillsinfo}>
+                  <div className={styles.skillsimage}>
+                    <img src={item.appphoto} alt="" />
+                  </div>
+                  <div className={styles.skillsabout}>
+                    <h3>{item.year}</h3>
+                    <h1>{item.educationname}</h1>
+                    <h3>{item.appeducation}</h3>
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+          </div>
+        </div>
         </div>
       </Container>
       <Container position="fixed">

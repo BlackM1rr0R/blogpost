@@ -300,20 +300,26 @@
   line-height: 13px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation {
+.background .controlpages {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.background .controlpages .abouteducation {
   background-color: #040b0f;
   display: flex;
   justify-content: space-between;
   gap: 18px;
+  width: 100%;
 }
-.background .abouteducation .education {
+.background .controlpages .abouteducation .education {
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
   padding: 15px;
 }
-.background .abouteducation .education .educationtitle {
+.background .controlpages .abouteducation .education .educationtitle {
   width: 105px;
   display: flex;
   justify-content: center;
@@ -321,51 +327,96 @@
   background-color: #051722;
   padding: 15px 18px;
 }
-.background .abouteducation .education .educationtitle h2 {
+.background .controlpages .abouteducation .education .educationtitle h2 {
   color: #f9f9f9;
   font-size: 13px;
   font-weight: 400;
   line-height: 14.4px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .education .educationcontrol {
+.background .controlpages .abouteducation .education .educationcontrol {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
   justify-content: space-between;
 }
-.background .abouteducation .education .educationcontrol .educationinfo {
+.background .controlpages .abouteducation .education .educationcontrol .educationinfo {
   padding-top: 37px;
-  width: 48%;
+  width: 100%;
   display: flex;
   gap: 18px;
 }
-.background .abouteducation .education .educationcontrol .educationinfo .educationabout {
+.background .controlpages .abouteducation .education .educationcontrol .educationinfo .educationabout {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.background .abouteducation .education .educationcontrol .educationinfo .educationabout h3 {
+.background .controlpages .abouteducation .education .educationcontrol .educationinfo .educationabout h3 {
   color: #8e8e8e;
   font-size: 10px;
   font-weight: 400;
   line-height: 10px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
+.background .controlpages .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
   color: white;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: -0.75px;
 }
-.background .abouteducation .aboutexperience {
+.background .controlpages .aboutskills {
+  background-color: #040b0f;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  width: 100%;
+}
+.background .controlpages .aboutskills .skills {
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
   padding: 15px;
 }
-.background .abouteducation .aboutexperience .experiencetitle {
+.background .controlpages .aboutskills .skills .skillscontrol {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: space-between;
+}
+.background .controlpages .aboutskills .skills .skillscontrol .skillsinfo {
+  width: 100%;
+  display: flex;
+  gap: 18px;
+}
+.background .controlpages .aboutskills .skills .skillscontrol .skillsinfo .skillsabout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .controlpages .aboutskills .skills .skillscontrol .skillsinfo .skillsabout h3 {
+  color: #8e8e8e;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.2300000042px;
+}
+.background .controlpages .aboutskills .skills .skillscontrol .skillsinfo .skillsabout h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.75px;
+}
+.background .controlpages .aboutskills .aboutexperience {
+  width: 100%;
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.04) 0%, rgba(0, 170, 255, 0.02) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2509803922);
+  padding: 15px;
+}
+.background .controlpages .aboutskills .aboutexperience .experiencetitle {
   width: 105px;
   display: flex;
   justify-content: center;
@@ -373,31 +424,31 @@
   background-color: #051722;
   padding: 15px 18px;
 }
-.background .abouteducation .aboutexperience .experiencetitle h2 {
+.background .controlpages .aboutskills .aboutexperience .experiencetitle h2 {
   color: #f9f9f9;
   font-size: 13px;
   font-weight: 400;
   line-height: 14.4px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .aboutexperience .experienceinfo {
+.background .controlpages .aboutskills .aboutexperience .experienceinfo {
   padding-top: 37px;
   display: flex;
   gap: 18px;
 }
-.background .abouteducation .aboutexperience .experienceinfo .experienceabout {
+.background .controlpages .aboutskills .aboutexperience .experienceinfo .experienceabout {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.background .abouteducation .aboutexperience .experienceinfo .experienceabout h3 {
+.background .controlpages .aboutskills .aboutexperience .experienceinfo .experienceabout h3 {
   color: #8e8e8e;
   font-size: 10px;
   font-weight: 400;
   line-height: 10px;
   letter-spacing: 0.2300000042px;
 }
-.background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+.background .controlpages .aboutskills .aboutexperience .experienceinfo .experienceabout h1 {
   color: white;
   font-size: 16px;
   font-weight: 400;
@@ -839,26 +890,30 @@
   .background .customers .stats .stat {
     width: auto;
   }
-  .background .abouteducation {
+  .background .controlpages {
     display: flex;
     flex-direction: column;
   }
-  .background .abouteducation .education {
+  .background .controlpages .abouteducation {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .controlpages .abouteducation .education {
     width: auto;
   }
-  .background .abouteducation .education .educationcontrol {
+  .background .controlpages .abouteducation .education .educationcontrol {
     display: flex;
   }
-  .background .abouteducation .education .educationcontrol .educationinfo {
+  .background .controlpages .abouteducation .education .educationcontrol .educationinfo {
     width: 100%;
   }
-  .background .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
+  .background .controlpages .abouteducation .education .educationcontrol .educationinfo .educationabout h1 {
     font-size: 13px;
   }
-  .background .abouteducation .aboutexperience {
+  .background .controlpages .abouteducation .aboutexperience {
     width: auto;
   }
-  .background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+  .background .controlpages .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
     font-size: 13px;
   }
   .background .services .servicesboxs {
@@ -929,20 +984,24 @@
   .background .customers .stats .stat {
     width: auto;
   }
-  .background .abouteducation {
+  .background .controlpages {
     display: flex;
     flex-direction: column;
   }
-  .background .abouteducation .education {
+  .background .controlpages .abouteducation {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .controlpages .abouteducation .education {
     width: auto;
   }
-  .background .abouteducation .education .educationinfo .educationabout h1 {
+  .background .controlpages .abouteducation .education .educationinfo .educationabout h1 {
     font-size: 13px;
   }
-  .background .abouteducation .aboutexperience {
+  .background .controlpages .abouteducation .aboutexperience {
     width: auto;
   }
-  .background .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
+  .background .controlpages .abouteducation .aboutexperience .experienceinfo .experienceabout h1 {
     font-size: 13px;
   }
   .background .services .servicesboxs {
