@@ -28,8 +28,8 @@ import Spotify from "../../assets/images/spotify.png";
 import Figma from "../../assets/images/figma.png";
 import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
-import LarryPP from "../../assets/images/larry1.png";
-import WilliamPP from '../../assets/images/manywilliam.png'
+import LarryPP from "../../assets/images/aliabdulla.png";
+import WilliamPP from '../../assets/images/elcinabdulla.png'
 import ModenQuran1 from '../../assets/images/modenquran1.png'
 import BinarySchool from '../../assets/images/binaryschool.png'
 import Ureb1 from '../../assets/images/ureb1.png'
@@ -41,6 +41,7 @@ import FatimaHijab from '../../assets/images/fatimahijab.png'
 import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
 import CanvaPP from '../../assets/images/canvaphoto.png'
 import MsOffice from '../../assets/images/msofficephoto.png'
+import AzeHolidays from '../../assets/images/azeholidays.png'
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
@@ -93,6 +94,12 @@ const RightSide = () => {
     {
       images: `${ModenQuran1}`,
       name: "Quran reading website",
+      overview: "Web Design",
+      link:"https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page"
+    },
+    {
+      images: `${AzeHolidays}`,
+      name: "Azeholidays.com",
       overview: "Web Design",
       link:"https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page"
     },
@@ -310,7 +317,7 @@ const RightSide = () => {
           <div className={styles.maps}>
             {data?.map((item, index) => (
               <>
-                {(hide && index < 3) || (!hide && index < 9) ? (
+                {(hide && index < 3) || (!hide && index <11) ? (
                   <div className={styles.border}>
                     <div className={styles.images}>
                       <img src={item.images} alt="" />
@@ -492,7 +499,7 @@ const RightSide = () => {
               <div className={styles.larrytext}>
                 <div className={styles.larryinfo}>
                   <div className={styles.larryname}>
-                    <h1>Larry Daley</h1>
+                    <h1>Ali Abdullazada</h1>
                     <h3>Product Designer</h3>
                   </div>
                   <div className={styles.larryicon}>
@@ -515,7 +522,7 @@ const RightSide = () => {
               <div className={styles.larrytext}>
                 <div className={styles.larryinfo}>
                   <div className={styles.larryname}>
-                    <h1>Manny William</h1>
+                    <h1>Elcin Abdullayev</h1>
                     <h3>Full Stack Developer</h3>
                   </div>
                   <div className={styles.larryicon}>

@@ -16,8 +16,11 @@
         align-items: center;
         justify-content: center;
         background-color: #041118;
-        padding: 17px 0px;
-        width: 70px;
+        img{
+         width: 60px;
+         height: 60px;
+        }
+     
       }
       .name {
         h2 {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
-import Logo from "../../assets/images/logo12.png";
+import Logo from "../../assets/images/logo13.svg";
 import MePP from "../../assets/images/me.png";
 import {
   AboutIcon,

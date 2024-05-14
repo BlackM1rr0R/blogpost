@@ -18,8 +18,10 @@
   align-items: center;
   justify-content: center;
   background-color: #041118;
-  padding: 17px 0px;
-  width: 70px;
+}
+.background .logo .images .fb img {
+  width: 60px;
+  height: 60px;
 }
 .background .logo .images .name h2 {
   color: #c0c0c0;
