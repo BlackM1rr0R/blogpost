@@ -499,7 +499,7 @@ const RightSide = () => {
               <div className={styles.larrytext}>
                 <div className={styles.larryinfo}>
                   <div className={styles.larryname}>
-                    <h1>Ali Abdullazada</h1>
+                    <h1>Ali T.</h1>
                     <h3>Product Designer</h3>
                   </div>
                   <div className={styles.larryicon}>
@@ -522,7 +522,7 @@ const RightSide = () => {
               <div className={styles.larrytext}>
                 <div className={styles.larryinfo}>
                   <div className={styles.larryname}>
-                    <h1>Elcin Abdullayev</h1>
+                    <h1>Elcin A.</h1>
                     <h3>Full Stack Developer</h3>
                   </div>
                   <div className={styles.larryicon}>
