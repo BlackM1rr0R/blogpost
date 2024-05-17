@@ -146,15 +146,31 @@
   letter-spacing: 0.2300000042px;
 }
 .background .projects .projecttitle .projectoverview {
+  width: 76%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 12px 20px;
   background-color: #041016;
+  position: relative; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
 .background .projects .projecttitle .projectoverview p {
+  position: absolute; /* Eklendi */
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .background .projects .maps {
   padding-top: 18px;
@@ -242,15 +258,31 @@
   letter-spacing: 0.2300000042px;
 }
 .background .customers .customerstitle .customersoverview {
+  width: 76%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 12px 20px;
   background-color: #041016;
+  position: relative; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
 .background .customers .customerstitle .customersoverview p {
+  position: absolute; /* Eklendi */
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .background .customers .customersmarke {
   display: flex;
@@ -480,15 +512,31 @@
   letter-spacing: 0.2300000042px;
 }
 .background .services .servicestitle .servicesoverview {
+  width: 76%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 12px 20px;
   background-color: #041016;
+  position: relative; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
 .background .services .servicestitle .servicesoverview p {
+  position: absolute; /* Eklendi */
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .background .services .servicesboxs {
   padding-top: 31px;
@@ -565,15 +613,31 @@
   letter-spacing: 0.2300000042px;
 }
 .background .testimonial .testimonialtitle .testimonialoverview {
+  width: 76%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 12px 20px;
   background-color: #041016;
+  position: relative; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
 .background .testimonial .testimonialtitle .testimonialoverview p {
+  position: absolute; /* Eklendi */
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .background .testimonial .testimonialboxs {
   padding-top: 32px;
@@ -672,15 +736,31 @@
   letter-spacing: 0.2300000042px;
 }
 .background .contact .contacttitle .contactoverview {
+  width: 76%;
   border: 1px solid rgba(251, 251, 251, 0.1764705882);
   padding: 12px 20px;
   background-color: #041016;
+  position: relative; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
 .background .contact .contacttitle .contactoverview p {
+  position: absolute; /* Eklendi */
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);
   font-size: 12px;
   font-weight: 400;
   line-height: 14.4px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .background .contact .contactboxs {
   padding-top: 18px;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .background {
   display: flex;
   flex-direction: column;
@@ -80,12 +81,21 @@
   text-decoration: none;
   gap: 15px;
   padding: 19px;
+  background-color: initial; /* İlk arka plan rengi */
+  transition: background-color 0.5s ease-out; /* Geçiş süresi ve animasyon tipi */
 }
 .background .menu .menubackground h2 {
   color: rgba(249, 249, 249, 0.5137254902);
   font-size: 15px;
   font-weight: 400;
   line-height: 14.4px;
+}
+.background .menu .menubackground:hover {
+  border: 1px solid rgba(251, 251, 251, 0.1764705882);
+  background-color: #041118;
+}
+.background .menu .menubackground:hover h2 {
+  color: white;
 }
 .background .menu .active {
   display: flex;

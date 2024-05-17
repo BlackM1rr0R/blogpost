@@ -156,14 +156,30 @@
         }
       }
       .projectoverview {
+        width: 76%;
         border: 1px solid #fbfbfb2d;
         padding: 12px 20px;
         background-color: #041016;
+        position: relative; /* Eklendi */
+        overflow: hidden; /* Eklendi */
         p {
+          position: absolute; /* Eklendi */
+          width: 100%;
+          white-space: nowrap;
+          box-sizing: border-box;
+          animation: marquee 15s linear infinite;
           color: #f9f9f9b6;
           font-size: 12px;
           font-weight: 400;
           line-height: 14.4px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
         }
       }
     }
@@ -217,19 +233,19 @@
         }
       }
     }
-    .button{
+    .button {
       display: flex;
       justify-content: center;
       align-items: center;
       padding-top: 20px;
-      button{
+      button {
         cursor: pointer;
-          background-color: #041016;
-          border: 1px solid #fbfbfb2d;
+        background-color: #041016;
+        border: 1px solid #fbfbfb2d;
 
-          padding: 10px 22px;
-          color: white;
-        }
+        padding: 10px 22px;
+        color: white;
+      }
     }
   }
   .customers {
@@ -255,14 +271,30 @@
         }
       }
       .customersoverview {
+        width: 76%;
         border: 1px solid #fbfbfb2d;
         padding: 12px 20px;
         background-color: #041016;
+        position: relative; /* Eklendi */
+        overflow: hidden; /* Eklendi */
         p {
+          position: absolute; /* Eklendi */
+          width: 100%;
+          white-space: nowrap;
+          box-sizing: border-box;
+          animation: marquee 15s linear infinite;
           color: #f9f9f9b6;
           font-size: 12px;
           font-weight: 400;
           line-height: 14.4px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
         }
       }
     }
@@ -314,7 +346,7 @@
       }
     }
   }
-  .controlpages{
+  .controlpages {
     display: flex;
     gap: 20px;
     width: 100%;
@@ -333,7 +365,7 @@
           rgba(0, 170, 255, 0.02) 100%
         );
         box-shadow: 0px 1px 2px 0px #00000040;
-  
+
         padding: 15px;
         .educationtitle {
           width: 105px;
@@ -350,16 +382,16 @@
             letter-spacing: 0.23000000417232513px;
           }
         }
-        .educationcontrol{
+        .educationcontrol {
           display: flex;
-         flex-direction: column;
+          flex-direction: column;
           width: 100%;
           justify-content: space-between;
           .educationinfo {
             padding-top: 37px;
             width: 100%;
             display: flex;
-    
+
             gap: 18px;
             .educationabout {
               display: flex;
@@ -383,7 +415,6 @@
           }
         }
       }
-      
     }
     .aboutskills {
       background-color: #040b0f;
@@ -400,20 +431,19 @@
           rgba(0, 170, 255, 0.02) 100%
         );
         box-shadow: 0px 1px 2px 0px #00000040;
-  
+
         padding: 15px;
-      
-        .skillscontrol{
+
+        .skillscontrol {
           display: flex;
           flex-direction: column;
           gap: 45px;
           justify-content: space-between;
-          
+
           .skillsinfo {
-            
             width: 100%;
             display: flex;
-    
+
             gap: 18px;
             .skillsabout {
               display: flex;
@@ -464,10 +494,10 @@
         }
         .experienceinfo {
           padding-top: 37px;
-  
+
           display: flex;
           gap: 18px;
-  
+
           .experienceabout {
             display: flex;
             flex-direction: column;
@@ -515,14 +545,30 @@
         }
       }
       .servicesoverview {
+        width: 76%;
         border: 1px solid #fbfbfb2d;
         padding: 12px 20px;
         background-color: #041016;
+        position: relative; /* Eklendi */
+        overflow: hidden; /* Eklendi */
         p {
+          position: absolute; /* Eklendi */
+          width: 100%;
+          white-space: nowrap;
+          box-sizing: border-box;
+          animation: marquee 15s linear infinite;
           color: #f9f9f9b6;
           font-size: 12px;
           font-weight: 400;
           line-height: 14.4px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
         }
       }
     }
@@ -601,14 +647,30 @@
         }
       }
       .testimonialoverview {
+        width: 76%;
         border: 1px solid #fbfbfb2d;
         padding: 12px 20px;
         background-color: #041016;
+        position: relative; /* Eklendi */
+        overflow: hidden; /* Eklendi */
         p {
+          position: absolute; /* Eklendi */
+          width: 100%;
+          white-space: nowrap;
+          box-sizing: border-box;
+          animation: marquee 15s linear infinite;
           color: #f9f9f9b6;
           font-size: 12px;
           font-weight: 400;
           line-height: 14.4px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
         }
       }
     }
@@ -710,14 +772,30 @@
         }
       }
       .contactoverview {
+        width: 76%;
         border: 1px solid #fbfbfb2d;
         padding: 12px 20px;
         background-color: #041016;
+        position: relative; /* Eklendi */
+        overflow: hidden; /* Eklendi */
         p {
+          position: absolute; /* Eklendi */
+          width: 100%;
+          white-space: nowrap;
+          box-sizing: border-box;
+          animation: marquee 15s linear infinite;
           color: #f9f9f9b6;
           font-size: 12px;
           font-weight: 400;
           line-height: 14.4px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
         }
       }
     }
@@ -953,13 +1031,12 @@
           width: auto;
         }
       }
-      .button{
-
+      .button {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 20px;
-        button{
+        button {
           background-color: #041016;
           border: 1px solid #fbfbfb2d;
 
@@ -988,7 +1065,7 @@
         }
       }
     }
-    .controlpages{
+    .controlpages {
       display: flex;
       flex-direction: column;
       .abouteducation {
@@ -996,18 +1073,18 @@
         flex-direction: column;
         .education {
           width: auto;
-           .educationcontrol{
+          .educationcontrol {
             display: flex;
-            
-          .educationinfo {
-            width: 100%;
-            .educationabout {
-              h1 {
-                font-size: 13px;
+
+            .educationinfo {
+              width: 100%;
+              .educationabout {
+                h1 {
+                  font-size: 13px;
+                }
               }
             }
           }
-        }
         }
         .aboutexperience {
           width: auto;
@@ -1021,7 +1098,7 @@
         }
       }
     }
-    
+
     .services {
       .servicesboxs {
         display: flex;
@@ -1112,7 +1189,7 @@
         }
       }
     }
-    .controlpages{
+    .controlpages {
       display: flex;
       flex-direction: column;
       .abouteducation {
@@ -1139,7 +1216,6 @@
           }
         }
       }
-
     }
     .services {
       .servicesboxs {

@@ -16,11 +16,10 @@
         align-items: center;
         justify-content: center;
         background-color: #041118;
-        img{
-         width: 60px;
-         height: 60px;
+        img {
+          width: 60px;
+          height: 60px;
         }
-     
       }
       .name {
         h2 {
@@ -86,12 +85,21 @@
       text-decoration: none;
       gap: 15px;
       padding: 19px;
-
+      background-color: initial; /* İlk arka plan rengi */
+      transition: background-color 0.5s ease-out; /* Geçiş süresi ve animasyon tipi */
       h2 {
         color: #f9f9f983;
         font-size: 15px;
         font-weight: 400;
         line-height: 14.4px;
+      }
+    }
+    .menubackground:hover {
+      border: 1px solid #fbfbfb2d;
+      background-color: #041118;
+      h2{
+      color: white;
+
       }
     }
     .active {
@@ -114,7 +122,7 @@
   }
   .contacts {
     display: flex;
-    
+
     padding-top: 40px;
     .iconsbackground {
       width: 100%;
@@ -142,18 +150,17 @@
     }
   }
 }
-@media(max-width:492px){
-  .background{
-    .logo{
-      
+@media (max-width: 492px) {
+  .background {
+    .logo {
     }
-    .fatima{
+    .fatima {
       display: none;
     }
-    .menu{
+    .menu {
       display: none;
     }
-    .contacts{
+    .contacts {
       display: none;
     }
   }
