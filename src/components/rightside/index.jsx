@@ -128,13 +128,13 @@ const RightSide = () => {
       appphoto: `${Figma}`,
     },
     {
-      year: "2020-2024",
+      year: "2020-2021",
       educationname: "Canva & Balsamiq ",
       appeducation: "Mandro Studio",
       appphoto: `${CanvaPP}`,
     },
     {
-      year: "2019-2020",
+      year: "2019-2019",
       educationname: "Microsoft Office",
       appeducation: "Larsen & Toubro",
       appphoto: `${MsOffice}`,
