@@ -66,7 +66,7 @@ const RightSide = () => {
     {
       images: `${KhafalovParfum}`,
       name: "Khalafov Hamid Parfums",
-      overview: "Web Design",
+      overview: "Graphic Design",
     
     },
     {
@@ -78,12 +78,12 @@ const RightSide = () => {
     {
       images: `${FatimaHijab}`,
       name: "Fatima Hijab Fashion Boutique ",
-      overview: "Web Design",
+      overview: "Graphic Design",
     },
     {
       images: `${BinarySchool}`,
       name: "Binaryschool.az",
-      overview: "Web Design",
+      overview: "Graphic Design",
     },
     {
       images: `${ShoppyAz}`,
