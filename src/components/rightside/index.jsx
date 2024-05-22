@@ -47,7 +47,7 @@ const RightSide = () => {
   const [data, setData] = useState([
     {
       images: `${Ureb1}`,
-      name: "UREB.az (Sayt.az)",
+      name: "UREB.com (Sayt.az)",
       overview: "Web Design",
       link:"https://www.figma.com/design/oAH15AD0uKubuDAdgJtWOI/Sayt.az?node-id=0-1&t=3eTWd6zEpEEEA9Dr-0"
     },
@@ -101,18 +101,18 @@ const RightSide = () => {
       images: `${AzeHolidays}`,
       name: "Azeholidays.com",
       overview: "Web Design",
-      link:"https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page"
+      link:"https://www.figma.com/file/jLsCP75AqoYFZVsHOCEDtN?node-id=0:1&locale=en&type=design"
     },
   ]);
   const [education, setEducation] = useState([
     {
-      year: "2007-2017",
+      year: "2020-2021",
       educationname: "Graphic and Web Designer",
       appeducation: "Adobe Creative Cloud",
       appphoto: `${AdobeCloud}`,
     },
     {
-      year: "2017-2020",
+      year: "2020-2021",
       educationname: "Front-End Developer",
       appeducation: "Spotify",
       appphoto: `${Spotify}`,
@@ -122,19 +122,19 @@ const RightSide = () => {
   ]);
   const [skills, setSkills] = useState([
     {
-      year: "2020-2024",
-      educationname: "FigJam",
+      year: "2020-2021",
+      educationname: "Figma & FigJam",
       appeducation:"Bluebase Designs",
       appphoto: `${Figma}`,
     },
     {
-      year: "2007-2017",
+      year: "2020-2024",
       educationname: "Canva & Balsamiq ",
       appeducation: "Mandro Studio",
       appphoto: `${CanvaPP}`,
     },
     {
-      year: "2017-2020",
+      year: "2019-2020",
       educationname: "Microsoft Office",
       appeducation: "Larsen & Toubro",
       appphoto: `${MsOffice}`,
