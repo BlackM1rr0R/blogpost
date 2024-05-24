@@ -1,4 +1,6 @@
 .home {
+  animation: fadeIn 2s ease-in-out forwards;
+
   .left {
     position: fixed;
   }
@@ -35,4 +37,12 @@
     }
   }
 
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
