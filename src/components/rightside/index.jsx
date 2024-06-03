@@ -182,7 +182,7 @@ const RightSide = () => {
       servicesname: "Graphic Design",
       servicesoverview:
         "I created digital products with unique ideas use Photoshop",
-      servicesprojects: "13 Projects",
+      servicesprojects: "20 Projects",
       servicesicon: <GraphicDesignIcon />,
     },
     {
@@ -384,14 +384,14 @@ const RightSide = () => {
               <div className={styles.line}></div>
               <div className={styles.stat}>
                 <h1>
-                  {counterOn && <CountUp duration={2} delay={0} end={84} />}+
+                  {counterOn && <CountUp duration={2} delay={0} end={75} />}+
                 </h1>
                 <h3>Completed Projects</h3>
               </div>
               <div className={styles.line}></div>
               <div className={styles.stat}>
                 <h1>
-                  {counterOn && <CountUp duration={2} delay={0} end={75} />}+
+                  {counterOn && <CountUp duration={2} delay={0} end={84} />}+
                 </h1>
                 <h3>Clients Worldwide</h3>
               </div>
