@@ -107,13 +107,13 @@ const RightSide = () => {
     {
       year: "2020-2021",
       educationname: "Graphic and Web Designer",
-      appeducation: "IT-Baku",
+      appeducation: "Adobe Creative Cloud",
       appphoto: `${AdobeCloud}`,
     },
     {
       year: "2020-2021",
       educationname: "Front-End Developer",
-      appeducation: "IT-Baku",
+      appeducation: "Spotify",
       appphoto: `${Spotify}`,
     },
   ]);
@@ -121,19 +121,19 @@ const RightSide = () => {
     {
       year: "2020-2021",
       educationname: "Figma & FigJam",
-      appeducation: "IT-Baku",
+      appeducation: "Bluebase Design",
       appphoto: `${Figma}`,
     },
     {
       year: "2020-2021",
       educationname: "Canva & Balsamiq ",
-      appeducation: "IT-Baku",
+      appeducation: "Mandro Studio",
       appphoto: `${CanvaPP}`,
     },
     {
       year: "2019-2019",
       educationname: "Microsoft Office",
-      appeducation: "IT-Baku",
+      appeducation: "Office Programs",
       appphoto: `${MsOffice}`,
     },
   ]);
