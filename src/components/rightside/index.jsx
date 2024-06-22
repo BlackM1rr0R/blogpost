@@ -49,7 +49,13 @@ const RightSide = () => {
       images: `${Ureb1}`,
       name: "UREB.com (Sayt.az)",
       overview: "Web Design",
-      link: "https://ureb.com/",
+      link: "https://sayt.az/",
+    },
+    {
+      images: `${AzeHolidays}`,
+      name: "Azeholidays.com",
+      overview: "Web Design",
+      link: "https://azeholidays.com/",
     },
     {
       images: `${RashadBlog1}`,
@@ -83,6 +89,7 @@ const RightSide = () => {
       images: `${BinarySchool}`,
       name: "Binaryschool.az",
       overview: "Graphic Design",
+      link:"https://www.instagram.com/binaryschool.az/"
     },
     {
       images: `${ShoppyAz}`,
@@ -95,13 +102,8 @@ const RightSide = () => {
       name: "Quran reading website",
       overview: "Web Design",
       link: "https://khuran.vercel.app/",
-    },
-    {
-      images: `${AzeHolidays}`,
-      name: "Azeholidays.com",
-      overview: "Web Design",
-      link: "https://azeholidays.com/",
-    },
+    }
+   
   ]);
   const [education, setEducation] = useState([
     {
@@ -127,7 +129,7 @@ const RightSide = () => {
     {
       year: "2020-2021",
       educationname: "Canva & Balsamiq ",
-      appeducation: "Mandro Studio",
+      appeducation: "Bluebase Design",
       appphoto: `${CanvaPP}`,
     },
     {
