@@ -29,19 +29,19 @@ import Figma from "../../assets/images/figma.png";
 import Larsen from "../../assets/images/larsen.png";
 import Mandro from "../../assets/images/mandro.png";
 import LarryPP from "../../assets/images/aliabdulla.png";
-import WilliamPP from '../../assets/images/elcinabdulla.png'
-import ModenQuran1 from '../../assets/images/modenquran1.png'
-import BinarySchool from '../../assets/images/binaryschool.png'
-import Ureb1 from '../../assets/images/ureb1.png'
-import RashadBlog1 from '../../assets/images/rashadblog1.png'
-import Interviewer1 from '../../assets/images/interview1.png'
-import Travelly1 from '../../assets/images/travelly1.png'
-import KhafalovParfum from '../../assets/images/khalafovparfum.png'
-import FatimaHijab from '../../assets/images/fatimahijab.png'
-import ShoppyAz from '../../assets/images/shoppyazlogo1.png'
-import CanvaPP from '../../assets/images/canvaphoto.png'
-import MsOffice from '../../assets/images/msofficephoto.png'
-import AzeHolidays from '../../assets/images/azeholidays.png'
+import WilliamPP from "../../assets/images/elcinabdulla.png";
+import ModenQuran1 from "../../assets/images/modenquran1.png";
+import BinarySchool from "../../assets/images/binaryschool.png";
+import Ureb1 from "../../assets/images/ureb1.png";
+import RashadBlog1 from "../../assets/images/rashadblog1.png";
+import Interviewer1 from "../../assets/images/interview1.png";
+import Travelly1 from "../../assets/images/travelly1.png";
+import KhafalovParfum from "../../assets/images/khalafovparfum.png";
+import FatimaHijab from "../../assets/images/fatimahijab.png";
+import ShoppyAz from "../../assets/images/shoppyazlogo1.png";
+import CanvaPP from "../../assets/images/canvaphoto.png";
+import MsOffice from "../../assets/images/msofficephoto.png";
+import AzeHolidays from "../../assets/images/azeholidays.png";
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const [data, setData] = useState([
@@ -49,31 +49,30 @@ const RightSide = () => {
       images: `${Ureb1}`,
       name: "UREB.com (Sayt.az)",
       overview: "Web Design",
-      link:"https://www.figma.com/design/oAH15AD0uKubuDAdgJtWOI/Sayt.az?node-id=0-1&t=3eTWd6zEpEEEA9Dr-0"
+      link: "https://ureb.com/",
     },
     {
       images: `${RashadBlog1}`,
       name: "rashadmirza.com",
       overview: "Web Design",
-      link:"https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design"
+      link: "https://rashadmirza.com/",
     },
     {
       images: `${Interviewer1}`,
       name: "Interviewer.az",
       overview: "Web Design",
-      link:"https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design"
+      link: "https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design",
     },
     {
       images: `${KhafalovParfum}`,
       name: "Khalafov Hamid Parfums",
       overview: "Graphic Design",
-    
     },
     {
       images: `${Travelly1}`,
       name: "Travelly.com",
       overview: "Web Design",
-      link:"https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study"
+      link: "https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study",
     },
     {
       images: `${FatimaHijab}`,
@@ -89,60 +88,54 @@ const RightSide = () => {
       images: `${ShoppyAz}`,
       name: "Shoppy.az",
       overview: "Web Design",
-      link:"https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design"
+      link: "https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design",
     },
     {
       images: `${ModenQuran1}`,
       name: "Quran reading website",
       overview: "Web Design",
-      link:"https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page"
+      link: "https://khuran.vercel.app/",
     },
     {
       images: `${AzeHolidays}`,
       name: "Azeholidays.com",
       overview: "Web Design",
-      link:"https://www.figma.com/file/jLsCP75AqoYFZVsHOCEDtN?node-id=0:1&locale=en&type=design"
+      link: "https://azeholidays.com/",
     },
   ]);
   const [education, setEducation] = useState([
     {
       year: "2020-2021",
       educationname: "Graphic and Web Designer",
-      appeducation: "Adobe Creative Cloud",
+      appeducation: "IT-Baku",
       appphoto: `${AdobeCloud}`,
     },
     {
       year: "2020-2021",
       educationname: "Front-End Developer",
-      appeducation: "Spotify",
+      appeducation: "IT-Baku",
       appphoto: `${Spotify}`,
     },
-   
-  
   ]);
   const [skills, setSkills] = useState([
     {
       year: "2020-2021",
       educationname: "Figma & FigJam",
-      appeducation:"Bluebase Designs",
+      appeducation: "IT-Baku",
       appphoto: `${Figma}`,
     },
     {
       year: "2020-2021",
       educationname: "Canva & Balsamiq ",
-      appeducation: "Mandro Studio",
+      appeducation: "IT-Baku",
       appphoto: `${CanvaPP}`,
     },
     {
       year: "2019-2019",
       educationname: "Microsoft Office",
-      appeducation: "Larsen & Toubro",
+      appeducation: "IT-Baku",
       appphoto: `${MsOffice}`,
     },
-   
-  
-  
-   
   ]);
   const [experience, setExperience] = useState([
     {
@@ -317,7 +310,7 @@ const RightSide = () => {
           <div className={styles.maps}>
             {data?.map((item, index) => (
               <>
-                {(hide && index < 3) || (!hide && index <11) ? (
+                {(hide && index < 3) || (!hide && index < 11) ? (
                   <div className={styles.border}>
                     <div className={styles.images}>
                       <img src={item.images} alt="" />
@@ -327,7 +320,11 @@ const RightSide = () => {
                         <h1>{item.name}</h1>
                         <h2>{item.overview}</h2>
                       </div>
-                      <Link target="_blank" to={item.link} className={styles.mapsicon}>
+                      <Link
+                        target="_blank"
+                        to={item.link}
+                        className={styles.mapsicon}
+                      >
                         <ArrowIcon />
                       </Link>
                     </div>
@@ -400,53 +397,47 @@ const RightSide = () => {
         </div>
       </Container>
       <Container position="fixed">
-
         <div className={styles.controlpages}>
+          <div id="3" className={styles.abouteducation}>
+            <div className={styles.education}>
+              <div className={styles.educationtitle}>
+                <h2>Skills</h2>
+              </div>
 
-        <div id="3" className={styles.abouteducation}>
-          <div className={styles.education}>
-            <div className={styles.educationtitle}>
-              <h2>Skills</h2>
-            </div>
-         
-            <div className={styles.educationcontrol}>
-              {education?.map((item) => (
-                <div className={styles.educationinfo}>
-                  <div className={styles.educationimage}>
-                    <img src={item.appphoto} alt="" />
+              <div className={styles.educationcontrol}>
+                {education?.map((item) => (
+                  <div className={styles.educationinfo}>
+                    <div className={styles.educationimage}>
+                      <img src={item.appphoto} alt="" />
+                    </div>
+                    <div className={styles.educationabout}>
+                      <h3>{item.year}</h3>
+                      <h1>{item.educationname}</h1>
+                      <h3>{item.appeducation}</h3>
+                    </div>
                   </div>
-                  <div className={styles.educationabout}>
-                    <h3>{item.year}</h3>
-                    <h1>{item.educationname}</h1>
-                    <h3>{item.appeducation}</h3>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-            
           </div>
-        </div>
-        <div id="3" className={styles.aboutskills}>
-          <div className={styles.skills}>
-         
-         
-            <div className={styles.skillscontrol}>
-              {skills?.map((item) => (
-                <div className={styles.skillsinfo}>
-                  <div className={styles.skillsimage}>
-                    <img src={item.appphoto} alt="" />
+          <div id="3" className={styles.aboutskills}>
+            <div className={styles.skills}>
+              <div className={styles.skillscontrol}>
+                {skills?.map((item) => (
+                  <div className={styles.skillsinfo}>
+                    <div className={styles.skillsimage}>
+                      <img src={item.appphoto} alt="" />
+                    </div>
+                    <div className={styles.skillsabout}>
+                      <h3>{item.year}</h3>
+                      <h1>{item.educationname}</h1>
+                      <h3>{item.appeducation}</h3>
+                    </div>
                   </div>
-                  <div className={styles.skillsabout}>
-                    <h3>{item.year}</h3>
-                    <h1>{item.educationname}</h1>
-                    <h3>{item.appeducation}</h3>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-            
           </div>
-        </div>
         </div>
       </Container>
       <Container position="fixed">
@@ -508,9 +499,9 @@ const RightSide = () => {
                 </div>
                 <div className={styles.larryoverview}>
                   <p>
-                    I am a San francisco-based product designer with a focus on
-                    web design, illustration, a visual development. I have a
-                    diverse range of experience and industries.
+                    I am a Baku-based product designer with a focus on web
+                    design, illustration, a visual development. I have a diverse
+                    range of experience and industries.
                   </p>
                 </div>
               </div>
@@ -531,9 +522,9 @@ const RightSide = () => {
                 </div>
                 <div className={styles.larryoverview}>
                   <p>
-                    I am a San francisco-based product designer with a focus on
-                    web design, illustration, a visual development. I have a
-                    diverse range of experience and industries.
+                    I am a Baku-based Full-Stack Developer with a focus on web
+                    developer, coding, a visual development. I have a diverse
+                    range of experience and industries.
                   </p>
                 </div>
               </div>
