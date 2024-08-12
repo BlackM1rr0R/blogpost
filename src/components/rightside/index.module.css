@@ -156,7 +156,6 @@
 .background .projects .projecttitle .projectoverview p {
   position: absolute; /* Eklendi */
   width: 100%;
-  white-space: nowrap;
   box-sizing: border-box;
   animation: marquee 15s linear infinite;
   color: rgba(249, 249, 249, 0.7137254902);

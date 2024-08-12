@@ -376,7 +376,7 @@ const RightSide = () => {
             <div className={styles.stats}>
               <div className={styles.stat}>
                 <h1>
-                  {counterOn && <CountUp duration={2} delay={0} end={3} />}+
+                  {counterOn && <CountUp duration={2} delay={0} end={1} />}+
                 </h1>
                 <h3>Years of experience</h3>
               </div>
