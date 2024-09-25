@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import styles from "./index.module.css";
 import Container from "../UI/container";
 import {
@@ -44,82 +44,87 @@ import MsOffice from "../../assets/images/msofficephoto.png";
 import AzeHolidays from "../../assets/images/azeholidays.png";
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
-  const [data, setData] = useState([
-    {
-      images: `${Ureb1}`,
-      name: "UREB.com (Sayt.az)",
-      overview: "Web Design",
-      link: "https://sayt.az/",
-    },
-    {
-      images: `${AzeHolidays}`,
-      name: "Azeholidays.com",
-      overview: "Web Design",
-      link: "https://azeholidays.com/",
-    },
-    {
-      images: `${RashadBlog1}`,
-      name: "rashadmirza.com",
-      overview: "Web Design",
-      link: "https://rashadmirza.com/",
-    },
-    {
-      images: `${Interviewer1}`,
-      name: "Interviewer.az",
-      overview: "Web Design",
-      link: "https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design",
-    },
-    {
-      images: `${KhafalovParfum}`,
-      name: "Khalafov Hamid Parfums",
-      overview: "Graphic Design",
-    },
-    {
-      images: `${Travelly1}`,
-      name: "Travelly.com",
-      overview: "Web Design",
-      link: "https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study",
-    },
-    {
-      images: `${FatimaHijab}`,
-      name: "Fatima Hijab Fashion Boutique ",
-      overview: "Graphic Design",
-    },
-    {
-      images: `${BinarySchool}`,
-      name: "Binaryschool.az",
-      overview: "Graphic Design",
-      link:"https://www.instagram.com/binaryschool.az/"
-    },
-    {
-      images: `${ShoppyAz}`,
-      name: "Shoppy.az",
-      overview: "Web Design",
-      link: "https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design",
-    },
-    {
-      images: `${ModenQuran1}`,
-      name: "Quran reading website",
-      overview: "Web Design",
-      link: "https://khuran.vercel.app/",
-    }
-   
-  ]);
-  const [education, setEducation] = useState([
-    {
-      year: "2020-2021",
-      educationname: "Graphic and Web Designer",
-      appeducation: "Adobe Creative Cloud",
-      appphoto: `${AdobeCloud}`,
-    },
-    {
-      year: "2020-2021",
-      educationname: "Front-End Developer",
-      appeducation: "Spotify",
-      appphoto: `${Spotify}`,
-    },
-  ]);
-  const [skills, setSkills] = useState([
+  const data = useMemo(
+    () => [
+      {
+        images: `${Ureb1}`,
+        name: "UREB.com (Sayt.az)",
+        overview: "Web Design",
+        link: "https://sayt.az/",
+      },
+      {
+        images: `${AzeHolidays}`,
+        name: "Azeholidays.com",
+        overview: "Web Design",
+        link: "https://azeholidays.com/",
+      },
+      {
+        images: `${RashadBlog1}`,
+        name: "rashadmirza.com",
+        overview: "Web Design",
+        link: "https://rashadmirza.com/",
+      },
+      {
+        images: `${Interviewer1}`,
+        name: "Interviewer.az",
+        overview: "Web Design",
+        link: "https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design",
+      },
+      {
+        images: `${KhafalovParfum}`,
+        name: "Khalafov Hamid Parfums",
+        overview: "Graphic Design",
+      },
+      {
+        images: `${Travelly1}`,
+        name: "Travelly.com",
+        overview: "Web Design",
+        link: "https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study",
+      },
+      {
+        images: `${FatimaHijab}`,
+        name: "Fatima Hijab Fashion Boutique ",
+        overview: "Graphic Design",
+      },
+      {
+        images: `${BinarySchool}`,
+        name: "Binaryschool.az",
+        overview: "Graphic Design",
+        link: "https://www.instagram.com/binaryschool.az/",
+      },
+      {
+        images: `${ShoppyAz}`,
+        name: "Shoppy.az",
+        overview: "Web Design",
+        link: "https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design",
+      },
+      {
+        images: `${ModenQuran1}`,
+        name: "Quran reading website",
+        overview: "Web Design",
+        link: "https://khuran.vercel.app/",
+      },
+    ],
+    []
+  );
+  const education = useMemo(
+    () => [
+      {
+        year: "2020-2021",
+        educationname: "Graphic and Web Designer",
+        appeducation: "Adobe Creative Cloud",
+        appphoto: `${AdobeCloud}`,
+      },
+      {
+        year: "2020-2021",
+        educationname: "Front-End Developer",
+        appeducation: "Spotify",
+        appphoto: `${Spotify}`,
+      },
+    ],
+    []
+  );
+  const skills = useMemo(()=>[
     {
       year: "2020-2021",
       educationname: "Figma & FigJam",
@@ -138,8 +143,8 @@ const RightSide = () => {
       appeducation: "Office Programs",
       appphoto: `${MsOffice}`,
     },
-  ]);
-  const [experience, setExperience] = useState([
+  ],[]);
+  const experience = useMemo(()=>[
     {
       year: "2007-2017",
       educationname: "Figma Designing & Prototyping",
@@ -158,8 +163,8 @@ const RightSide = () => {
       appeducation: "Mandro Studio",
       appphoto: `${Mandro}`,
     },
-  ]);
-  const [services, setServices] = useState([
+  ],[]);
+  const services = useMemo(()=>[
     {
       servicesname: "Website Design",
       servicesoverview:
@@ -199,7 +204,7 @@ const RightSide = () => {
       servicesprojects: "34 Projects",
       servicesicon: <UxIcon />,
     },
-  ]);
+  ],[]);
   const [counterOn, setCounterOn] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
 
@@ -313,7 +318,7 @@ const RightSide = () => {
             {data?.map((item, index) => (
               <>
                 {(hide && index < 3) || (!hide && index < 11) ? (
-                  <div className={styles.border}>
+                  <div key={item.id || index} className={styles.border}>
                     <div className={styles.images}>
                       <img src={item.images} alt="" />
                     </div>
@@ -407,8 +412,8 @@ const RightSide = () => {
               </div>
 
               <div className={styles.educationcontrol}>
-                {education?.map((item) => (
-                  <div className={styles.educationinfo}>
+                {education?.map((item,index) => (
+                  <div key={item.id} className={styles.educationinfo}>
                     <div className={styles.educationimage}>
                       <img src={item.appphoto} alt="" />
                     </div>
@@ -425,8 +430,8 @@ const RightSide = () => {
           <div id="3" className={styles.aboutskills}>
             <div className={styles.skills}>
               <div className={styles.skillscontrol}>
-                {skills?.map((item) => (
-                  <div className={styles.skillsinfo}>
+                {skills?.map((item,index) => (
+                  <div key={item.id} className={styles.skillsinfo}>
                     <div className={styles.skillsimage}>
                       <img src={item.appphoto} alt="" />
                     </div>
@@ -456,8 +461,8 @@ const RightSide = () => {
             </div>
           </div>
           <div className={styles.servicesboxs}>
-            {services?.map((item) => (
-              <div className={styles.servicesborder}>
+            {services?.map((item,index) => (
+              <div key={item.id} className={styles.servicesborder}>
                 <div className={styles.servicescontrol}>
                   <div className={styles.servicestext}>
                     <h1>{item.servicesname}</h1>
