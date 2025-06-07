@@ -23,6 +23,7 @@
 .background .logo .images .fb img {
   width: 60px;
   height: 60px;
+  border-radius: 50px;
 }
 .background .logo .images .name h2 {
   color: #c0c0c0;
@@ -50,6 +51,8 @@
 .background .fatima .mephoto img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100px;
+  border-radius: 50px;
 }
 .background .fatima .aboutme {
   display: flex;

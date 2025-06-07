@@ -15,7 +15,7 @@ import {
   PaintIcon,
   UxIcon,
 } from "../../icons";
-import MapPP from "../../assets/images/az.svg";
+import MapPP from "../../assets/images/ukmap.png";
 import { Link } from "react-router-dom";
 import GoogleIcon from "../../assets/images/googlelogo.png";
 import UpworkIcon from "../../assets/images/upworklogo.png";
@@ -23,147 +23,42 @@ import SlackIcon from "../../assets/images/slacklogo.png";
 import LinkedinIcon from "../../assets/images/linkedinlogo.png";
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
-import AdobeCloud from "../../assets/images/adobecloud.png";
-import Spotify from "../../assets/images/spotify.png";
-import Figma from "../../assets/images/figma.png";
-import Larsen from "../../assets/images/larsen.png";
-import Mandro from "../../assets/images/mandro.png";
-import LarryPP from "../../assets/images/aliabdulla.png";
-import WilliamPP from "../../assets/images/elcinabdulla.png";
-import ModenQuran1 from "../../assets/images/modenquran1.png";
-import BinarySchool from "../../assets/images/binaryschool.png";
-import Ureb1 from "../../assets/images/ureb1.png";
-import RashadBlog1 from "../../assets/images/rashadblog1.png";
-import Interviewer1 from "../../assets/images/interview1.png";
-import Travelly1 from "../../assets/images/travelly1.png";
-import KhafalovParfum from "../../assets/images/khalafovparfum.png";
-import FatimaHijab from "../../assets/images/fatimahijab.png";
-import ShoppyAz from "../../assets/images/shoppyazlogo1.png";
-import CanvaPP from "../../assets/images/canvaphoto.png";
-import MsOffice from "../../assets/images/msofficephoto.png";
-import AzeHolidays from "../../assets/images/azeholidays.png";
+import Post1 from '../../assets/images/post1.png'
+import Post2 from '../../assets/images/post2.png'
+import Post3 from '../../assets/images/post3.png'
+
 import { HomeIcon } from "../../icons";
 const RightSide = () => {
   const data = useMemo(
     () => [
       {
-        images: `${Ureb1}`,
-        name: "UREB.com (Sayt.az)",
-        overview: "Web Design",
-        link: "https://sayt.az/",
+        images: `${Post1}`,
+        name: "Advertising",
+        overview: "SMM ADVERTISING",
+        link: "https://www.instagram.com/p/CqlkA6Atat-/?igsh=MW1oeDQ3OGx0cGE1cw%3D%3D",
+        date:"04-03-2020"
       },
       {
-        images: `${AzeHolidays}`,
-        name: "Azeholidays.com",
-        overview: "Web Design",
-        link: "https://azeholidays.com/",
+        images: `${Post2}`,
+        name: "Advertising",
+        overview: "SMM ADVERTISING",
+        link: "https://www.instagram.com/p/CqC1JjYtoqD/?igsh=cng3c3dwZWdwMjEw",
+        date:"05-03-2020"
       },
       {
-        images: `${RashadBlog1}`,
-        name: "rashadmirza.com",
-        overview: "Web Design",
-        link: "https://rashadmirza.com/",
+        images: `${Post3}`,
+        name: "Advertising",
+        overview: "SMM ADVERTISING",
+        link: "https://www.instagram.com/p/CpM3B_Qtt1o/?igsh=MXRteDJ3cm91MWN5aQ%3D%3D",
+        date:"06-03-2020"
       },
-      {
-        images: `${Interviewer1}`,
-        name: "Interviewer.az",
-        overview: "Web Design",
-        link: "https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design",
-      },
-      {
-        images: `${KhafalovParfum}`,
-        name: "Khalafov Hamid Parfums",
-        overview: "Graphic Design",
-      },
-      {
-        images: `${Travelly1}`,
-        name: "Travelly.com",
-        overview: "Web Design",
-        link: "https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study",
-      },
-      {
-        images: `${FatimaHijab}`,
-        name: "Fatima Hijab Fashion Boutique ",
-        overview: "Graphic Design",
-      },
-      {
-        images: `${BinarySchool}`,
-        name: "Binaryschool.az",
-        overview: "Graphic Design",
-        link: "https://www.instagram.com/binaryschool.az/",
-      },
-      {
-        images: `${ShoppyAz}`,
-        name: "Shoppy.az",
-        overview: "Web Design",
-        link: "https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design",
-      },
-      {
-        images: `${ModenQuran1}`,
-        name: "Quran reading website",
-        overview: "Web Design",
-        link: "https://khuran.vercel.app/",
-      },
+   
     ],
     []
   );
-  const education = useMemo(
-    () => [
-      {
-        year: "2020-2021",
-        educationname: "Graphic and Web Designer",
-        appeducation: "Adobe Creative Cloud",
-        appphoto: `${AdobeCloud}`,
-      },
-      {
-        year: "2020-2021",
-        educationname: "Front-End Developer",
-        appeducation: "Spotify",
-        appphoto: `${Spotify}`,
-      },
-    ],
-    []
-  );
-  const skills = useMemo(()=>[
-    {
-      year: "2020-2021",
-      educationname: "Figma & FigJam",
-      appeducation: "Bluebase Design",
-      appphoto: `${Figma}`,
-    },
-    {
-      year: "2020-2021",
-      educationname: "Canva & Balsamiq ",
-      appeducation: "Bluebase Design",
-      appphoto: `${CanvaPP}`,
-    },
-    {
-      year: "2019-2019",
-      educationname: "Microsoft Office",
-      appeducation: "Office Programs",
-      appphoto: `${MsOffice}`,
-    },
-  ],[]);
-  const experience = useMemo(()=>[
-    {
-      year: "2007-2017",
-      educationname: "Figma Designing & Prototyping",
-      appeducation: "Bluebase Designs",
-      appphoto: `${Figma}`,
-    },
-    {
-      year: "2017-2020",
-      educationname: "Full Stack Developer",
-      appeducation: "Larsen & Toubro",
-      appphoto: `${Larsen}`,
-    },
-    {
-      year: "2020-2024",
-      educationname: "Cloud Development Operation",
-      appeducation: "Mandro Studio",
-      appphoto: `${Mandro}`,
-    },
-  ],[]);
+
+
+
   const services = useMemo(()=>[
     {
       servicesname: "Website Design",
@@ -271,7 +166,7 @@ const RightSide = () => {
                     <h2>A UX/UI Designer</h2>
                   </div>
                   <div className={styles.myname}>
-                    <h1>Fatima Bashirli 👋</h1>
+                    <h1>Jack Smith 👋</h1>
                   </div>
                   <div className={styles.experience}>
                     <p>
@@ -285,11 +180,11 @@ const RightSide = () => {
                 <div className={styles.rightabout}>
                   <div className={styles.locations}>
                     <div className={styles.baku}>
-                      <h2>Baku</h2>
+                      <h2>London</h2>
                     </div>
                     <div className={styles.azerbaijan}>
                       <LocationIcon />
-                      <h2>Azerbaijan</h2>
+                      <h2>UK</h2>
                     </div>
                   </div>
                   <div className={styles.screenphoto}>
@@ -381,7 +276,7 @@ const RightSide = () => {
             <div className={styles.stats}>
               <div className={styles.stat}>
                 <h1>
-                  {counterOn && <CountUp duration={2} delay={0} end={1} />}+
+                  {counterOn && <CountUp duration={2} delay={0} end={5} />}+
                 </h1>
                 <h3>Years of experience</h3>
               </div>
@@ -401,50 +296,6 @@ const RightSide = () => {
               </div>
             </div>
           </ScrollTrigger>
-        </div>
-      </Container>
-      <Container position="fixed">
-        <div className={styles.controlpages}>
-          <div id="3" className={styles.abouteducation}>
-            <div className={styles.education}>
-              <div className={styles.educationtitle}>
-                <h2>Skills</h2>
-              </div>
-
-              <div className={styles.educationcontrol}>
-                {education?.map((item,index) => (
-                  <div key={item.id} className={styles.educationinfo}>
-                    <div className={styles.educationimage}>
-                      <img src={item.appphoto} alt="" />
-                    </div>
-                    <div className={styles.educationabout}>
-                      <h3>{item.year}</h3>
-                      <h1>{item.educationname}</h1>
-                      <h3>{item.appeducation}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div id="3" className={styles.aboutskills}>
-            <div className={styles.skills}>
-              <div className={styles.skillscontrol}>
-                {skills?.map((item,index) => (
-                  <div key={item.id} className={styles.skillsinfo}>
-                    <div className={styles.skillsimage}>
-                      <img src={item.appphoto} alt="" />
-                    </div>
-                    <div className={styles.skillsabout}>
-                      <h3>{item.year}</h3>
-                      <h1>{item.educationname}</h1>
-                      <h3>{item.appeducation}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
       </Container>
       <Container position="fixed">
@@ -473,69 +324,6 @@ const RightSide = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </Container>
-      <Container position="fixed">
-        <div className={styles.testimonial}>
-          <div className={styles.testimonialtitle}>
-            <div className={styles.testimonialname}>
-              <h2>Testimonial</h2>
-            </div>
-            <div className={styles.testimonialoverview}>
-              <p>
-                ⌘ It is a long established fact that a reader will distracted by
-                the readable content of a page when looking an its readable ⌘
-              </p>
-            </div>
-          </div>
-          <div className={styles.testimonialboxs}>
-            <div className={styles.larry}>
-              <div className={styles.larryimages}>
-                <img src={LarryPP} alt="" />
-              </div>
-              <div className={styles.larrytext}>
-                <div className={styles.larryinfo}>
-                  <div className={styles.larryname}>
-                    <h1>Ali T.</h1>
-                    <h3>Product Designer</h3>
-                  </div>
-                  <div className={styles.larryicon}>
-                    <HomeIcon />
-                  </div>
-                </div>
-                <div className={styles.larryoverview}>
-                  <p>
-                    I am a Baku-based product designer with a focus on web
-                    design, illustration, a visual development. I have a diverse
-                    range of experience and industries.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className={styles.larry}>
-              <div className={styles.larryimages}>
-                <img src={WilliamPP} alt="" />
-              </div>
-              <div className={styles.larrytext}>
-                <div className={styles.larryinfo}>
-                  <div className={styles.larryname}>
-                    <h1>Elcin A.</h1>
-                    <h3>Full Stack Developer</h3>
-                  </div>
-                  <div className={styles.larryicon}>
-                    <HomeIcon />
-                  </div>
-                </div>
-                <div className={styles.larryoverview}>
-                  <p>
-                    I am a Baku-based Full-Stack Developer with a focus on web
-                    developer, coding, a visual development. I have a diverse
-                    range of experience and industries.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </Container>
@@ -580,7 +368,7 @@ const RightSide = () => {
                   </div>
                   <div className={styles.adresslocation}>
                     <h1>Location</h1>
-                    <h2>Baku,Azerbaijan</h2>
+                    <h2>London,UK</h2>
                   </div>
                 </div>
                 <div className={styles.contactadress}>
@@ -589,7 +377,7 @@ const RightSide = () => {
                   </div>
                   <div className={styles.contactadresslocation}>
                     <h1>Contact Info</h1>
-                    <h2>fathimabashirli@gmail.com</h2>
+                    <h2>jacksmith32@gmail.com</h2>
                   </div>
                 </div>
               </div>

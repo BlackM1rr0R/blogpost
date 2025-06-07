@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
-import Logo from "../../assets/images/logo13.svg";
-import MePP from "../../assets/images/me.png";
+import Logo from "../../assets/images/jslogo.jpg";
+import MePP from "../../assets/images/jackpp.jpg";
 import {
   AboutIcon,
   BehanceIcon,
@@ -43,7 +43,7 @@ const LeftSide = () => {
             <img src={Logo} alt="" />
           </div>
           <div className={styles.name}>
-            <h2>FATIMA</h2>
+            <h2>Jack</h2>
           </div>
         </div>
         <div className={styles.time}>
@@ -55,10 +55,10 @@ const LeftSide = () => {
           <img src={MePP} alt="" />
         </div>
         <div className={styles.aboutme}>
-          <h1>Fatima Bashirli</h1>
-          <h3>Brand Designer</h3>
+          <h1>Jack Smith</h1>
+          <h3>SMM Manager</h3>
           <h2>
-            <LocationIcon /> Azerbaijani
+            <LocationIcon /> UK
           </h2>
         </div>
       </div>
@@ -110,25 +110,25 @@ const LeftSide = () => {
       </div>
       <div className={styles.contacts}>
         <div className={styles.iconsbackground}>
-          <Link target="_blank" to={"https://www.behance.net/fatimabashirli"}>
+          <Link target="_blank" to={"https://www.behance.net/"}>
             <BehanceIcon />
           </Link>
-          <Link target="_blank" to={"https://t.me/fbashirovaa"}>
+          <Link target="_blank" to={"https://t.me/"}>
             <TelegramIcon />
           </Link>
-          <Link target="_blank" to={"https://www.instagram.com/fatya.ffe/"}>
+          <Link target="_blank" to={"https://www.instagram.com/"}>
             <InstagramIcon />
           </Link>
           <Link
             target="_blank"
-            to={"https://www.linkedin.com/in/fatima-bashirli-104348286/"}
+            to={"https://www.linkedin.com/in/"}
           >
             <LinkedinIcon />
           </Link>
         </div>
         <div className={styles.copyright}>
           <h1>©</h1>
-          <h1>2024</h1>
+          <h1>2020</h1>
         </div>
       </div>
     </div>

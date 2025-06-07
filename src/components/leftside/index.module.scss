@@ -19,6 +19,7 @@
         img {
           width: 60px;
           height: 60px;
+          border-radius: 50px;
         }
       }
       .name {
@@ -53,6 +54,8 @@
     .mephoto {
       img {
         object-fit: cover;
+        width: 100px;
+        border-radius: 50px;
       }
     }
     .aboutme {
