@@ -32,7 +32,7 @@ const NewWindow = () => {
         <h2>Other Projects</h2>
         <div className={styles.cardGrid}>
           {otherProjects.map((p) => (
-            <Link to={`/project/${p.id}`} key={p.id} className={styles.card}>
+            <Link to={`/about/post/${p.id}`} key={p.id} className={styles.card}>
               <img src={p.images} alt={p.name} className={styles.cardImage} />
               <div className={styles.cardContent}>
                 <h3>{p.name}</h3>

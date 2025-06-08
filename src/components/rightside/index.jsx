@@ -188,7 +188,7 @@ const RightSide = () => {
             {data?.map((item, index) => (
               <>
                 {(hide && index < 3) || (!hide && index < 11) ? (
-                  <div key={item.id || index} className={styles.border}>
+                  <Link to={item.link} key={item.id || index} className={styles.border}>
                     <div className={styles.images}>
                       <img src={item.images} alt="" />
                     </div>
@@ -206,7 +206,7 @@ const RightSide = () => {
                         <ArrowIcon />
                       </Link>
                     </div>
-                  </div>
+                  </Link>
                 ) : null}
               </>
             ))}
