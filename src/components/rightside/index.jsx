@@ -28,34 +28,9 @@ import Post2 from '../../assets/images/post2.png'
 import Post3 from '../../assets/images/post3.png'
 
 import { HomeIcon } from "../../icons";
+import projectsData from "../../data/projectsData";
 const RightSide = () => {
-  const data = useMemo(
-    () => [
-      {
-        images: `${Post1}`,
-        name: "Advertising",
-        overview: "SMM ADVERTISING",
-        link: "https://www.instagram.com/p/CqlkA6Atat-/?igsh=MW1oeDQ3OGx0cGE1cw%3D%3D",
-        date:"04-03-2020"
-      },
-      {
-        images: `${Post2}`,
-        name: "Advertising",
-        overview: "SMM ADVERTISING",
-        link: "https://www.instagram.com/p/CqC1JjYtoqD/?igsh=cng3c3dwZWdwMjEw",
-        date:"05-03-2020"
-      },
-      {
-        images: `${Post3}`,
-        name: "Advertising",
-        overview: "SMM ADVERTISING",
-        link: "https://www.instagram.com/p/CpM3B_Qtt1o/?igsh=MXRteDJ3cm91MWN5aQ%3D%3D",
-        date:"06-03-2020"
-      },
-   
-    ],
-    []
-  );
+  const data = projectsData;
 
 
 
@@ -221,6 +196,7 @@ const RightSide = () => {
                       <div className={styles.mapstext}>
                         <h1>{item.name}</h1>
                         <h2>{item.overview}</h2>
+                        <h2>{item.date}</h2>
                       </div>
                       <Link
                         target="_blank"
